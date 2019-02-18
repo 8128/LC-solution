@@ -57,36 +57,27 @@ class Solution {
 
 
 
-public class Solution {
-    public ListNode mergeKLists(List<ListNode> lists) {
-        if (lists==null||lists.size()==0) return null;
+class Solution {
+    public ListNode mergeKLists(ListNode[] lists) {
+        if(lists == null || lists.length == 0) return null; 
         
-        PriorityQueue<ListNode> queue= new PriorityQueue<ListNode>(lists.size(),new Comparator<ListNode>(){
-            @Override
-            public int compare(ListNode o1,ListNode o2){
-                if (o1.val<o2.val)
-                    return -1;
-                else if (o1.val==o2.val)
-                    return 0;
-                else 
-                    return 1;
+        PriorityQueue<Integer> pq = new PriorityQueue<>(lists.length); 
+        
+        for(ListNode node : lists) {
+            ListNode curr = node; 
+            while(curr != null) {
+                pq.offer(curr.val); 
+                curr = curr.next; 
             }
-        });
-        
-        ListNode dummy = new ListNode(0);
-        ListNode tail=dummy;
-        
-        for (ListNode node:lists)
-            if (node!=null)
-                queue.add(node);
-            
-        while (!queue.isEmpty()){
-            tail.next=queue.poll();
-            tail=tail.next;
-            
-            if (tail.next!=null)
-                queue.add(tail.next);
         }
-        return dummy.next;
+        
+        ListNode head = new ListNode(-1); 
+        ListNode curr = head; 
+        while(!pq.isEmpty()) {
+            curr.next = new ListNode(pq.poll()); 
+            curr = curr.next; 
+        }
+        
+        return head.next; 
     }
 }
