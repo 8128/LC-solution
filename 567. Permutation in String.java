@@ -1,3 +1,4 @@
+// better solution is use the window to build a new array and check whether the windows are the same.
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int[] st = new int[26];
