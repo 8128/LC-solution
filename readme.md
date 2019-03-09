@@ -16,9 +16,17 @@ Only problems later than Mar-4 are gathered here
 
 ## Dynamic Programming
 
+85. Maximal Rectangle：
+
+    Height[] find the continous heigh; Left: if equal to zero,add one, if not show the number. Right:all five, if equal to zero, minus one, if not , show the number. Then the minus result will be the continous length, ans the height shows the depth
+
 139. Word Break:
 
      Firstly test whether the string contains the word in dictionary, stored them in dp[length], use the second cursor to find the point where the former part is recorded and the second part contains the word in dictionary.
+
+198. House Robber
+
+     Store premax and current max, current max is to choose add the largest one from the next two values
 
 ## Queue and Stack
 
