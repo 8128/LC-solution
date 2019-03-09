@@ -48,5 +48,12 @@ Only problems later than Mar-4 are gathered here
 
      Calculate the square and check if it's already in the hashset
 
-     
+
+## Bitwise Calculation
+
+191. Number of 1 Bits:
+
+     Solution1:test one bit and let the tester left move one bit <<=
+
+     Solution2:use x &= x-1 to test how many 1 bit
 
