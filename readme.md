@@ -1,6 +1,6 @@
 # Leetcode Solution
 
-[TOC]
+
 
 
 
