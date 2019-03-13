@@ -8,7 +8,15 @@ Only problems later than Mar-4 are gathered here
 
 ## DFS/BFS
 
+207. Course Schedule
 
+     Give the courses which are alreay searched tags
+
+210. Course Schedule II
+
+     Don't forget that if there is a circle, you should return an empty array which should be initialized as new int[]{} but not int[numCourses]
+
+     print the class that have entered the ans with 1; print the class haven't been entered with 0, print the class that being entered as -1
 
 ## Window
 
