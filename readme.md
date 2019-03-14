@@ -56,9 +56,15 @@ Only problems later than Mar-4 are gathered here
 
      Set the default sign to +, so the first time when it's not a number it will be pushed into the stack. Otherwise if it's x or /, use stack pop and calculate the result, and then push it back
 
-## Priority Queue
+## Heap
 
+218. The Skyline Problem
 
+     build a heap that can sort left first than sort y
+
+347. Top K Frequent Elements
+
+     Simple question, just use a priority queue, or add the frequency to a list and counte inversely
 
 ## Sql
 
@@ -66,9 +72,15 @@ Only problems later than Mar-4 are gathered here
 
 ## HashMap and HashSet
 
+Always to use getOrDefault instead of check contain and use replace
+
 202. Happy Number:
 
      Calculate the square and check if it's already in the hashset
+
+560. Subarray Sum Equals K
+
+     Use the sum-K, than the sum-K to the sum right now is K value
 
 
 ## Bitwise Calculation
