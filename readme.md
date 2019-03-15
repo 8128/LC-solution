@@ -78,9 +78,13 @@ Always to use getOrDefault instead of check contain and use replace
 
      Calculate the square and check if it's already in the hashset
 
-560. Subarray Sum Equals K
+203. Subarray Sum Equals K
 
      Use the sum-K, than the sum-K to the sum right now is K value
+
+380. Insert Delete GetRandom O(1)
+
+     design a random hashmap
 
 
 ## Bitwise Calculation
