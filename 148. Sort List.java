@@ -1,33 +1,81 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
 class Solution {
+    public class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+    }
+
     public ListNode sortList(ListNode head) {
-        ListNode cur1=head;
-        ListNode cur2=cur1.next;
-        ListNode prev=null;
-        while(cur2!=null){
-            if(cur2.val<cur1.val){
-                if(prev==null){
-                    cur1.next = cur2.next;
-                    cur2.next = cur1;
-                    ListNode temp = cur1;
-                    cur2 = temp;
-                    cur1 = cur2;
-                }else{
-                    pre.next = cur2;
-                    cur1.next = cur2.next;
-                    cur2.next = cur1;
-                }
-            }
-            cur2=cur2.next;
-            cur1=cur1.next;
-            prev = cur1;
+        if(head.next==null){
+          //System.out.println(head.val);
+          return head;
+        } 
+        ListNode dummy = new ListNode(0);
+        if(head.next.next==null){
+            head.next.next = dummy;
+        } 
+        ListNode prev = head, middle = head, end = head;
+        while(end.next.next!=null){
+            prev = middle;
+            end = end.next.next;
+            middle = middle.next;
+            if(end.next==null) break;
         }
+        if(head.next.next==dummy) head.next.next=null;
+        prev.next=null;
+        return mergeSort(sortList(head),sortList(middle));
+    }
+    
+    public ListNode mergeSort(ListNode first, ListNode second) {
+        ListNode head;
+        if(first.val>second.val){
+            head = second;
+            second = second.next;
+        }else{
+            head = first;
+            first = first.next;
+        }
+        ListNode prev = head;
+        while(first!=null && second!=null){
+            if(first.val>second.val){
+                prev.next = second;
+                second = second.next;
+                prev = prev.next;
+            }else{
+                prev.next = first;
+                first = first.next;
+                prev = prev.next;
+            } 
+        }
+        while(first==null && second!=null){
+            prev.next = second;
+            second = second.next;
+            prev = prev.next;
+        }
+        while(first!=null && second==null){
+            prev.next = first;
+            first = first.next;
+            prev = prev.next;
+        }
+        return head;
+    }
+
+    public static void main(String[] args) {
+      Solution mSolution = new Solution();
+      Solution.ListNode one = mSolution.new ListNode(1);
+      Solution.ListNode two = mSolution.new ListNode(2);
+      Solution.ListNode three = mSolution.new ListNode(3);
+      Solution.ListNode four = mSolution.new ListNode(4);
+      // ListNode one = new ListNode(1);
+      // ListNode one = new ListNode(1);
+      // ListNode one = new ListNode(1);
+      four.next = two;
+      two.next = one;
+      one.next = three;
+      ListNode res = mSolution.sortList(four);
+      while(res!=null){
+        System.out.println(res.val);
+        res = res.next;
+      }
     }
 }
