@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class Solution{
 
-    public int countKDistinctSubstring1(String inputString, int num){
+    public int countKDistinctSubstring(String inputString, int num){
         int ans=0;
         for(int i=0;i<inputString.length();i++){
             HashMap<Character, Integer> hm = new HashMap<>();
@@ -21,7 +21,5 @@ public class Solution{
     public static void main(String[] args) {
         Solution mSolution = new Solution();
         System.out.println(mSolution.countKDistinctSubstring("abasadasfg", 3));
-        System.out.println("----------");;
-        System.out.println(mSolution.countKDistinctSubstring1("abasadasfg", 3));
     }
 }
