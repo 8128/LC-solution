@@ -1,13 +1,15 @@
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
-        Map<String, Integer> count = new HashMap();
-        for (String word: words) {
-            count.put(word, count.getOrDefault(word, 0) + 1);
-        }
-        List<String> candidates = new ArrayList(count.keySet());
-        Collections.sort(candidates, (w1, w2) -> count.get(w1).equals(count.get(w2)) ?
-                w1.compareTo(w2) : count.get(w2) - count.get(w1));
-
-        return candidates.subList(0, k);
+        HashMap<String, Integer> hm = new HashMap<>();
+        for(String temp:words) hm.put(temp,hm.getOrDefault(temp,0)+1);
+        List<String> ans = new ArrayList<>(hm.keySet());
+        Collections.sort(ans,new Comparator<String>(){
+            public int compare(String a, String b){
+                if(hm.get(a)>hm.get(b)) return -1;
+                if(hm.get(b)>hm.get(a)) return 1;
+                return a.compareTo(b);
+            }
+        });
+        return ans.subList(0,k);
     }
 }
