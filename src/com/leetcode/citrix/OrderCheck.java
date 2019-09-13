@@ -1,3 +1,5 @@
+package com.leetcode.citrix;
+
 import java.util.*;
 
 
@@ -17,7 +19,7 @@ public class OrderCheck{
 
     public static void main(String[] args) {
         OrderCheck orderCheck = new OrderCheck();
-        List<Integer> mlist = new LinkedList<>()
-        System.out.println(orderCheck.orderCheck(new int[]{1,1,3,4,1}));
+        List<Integer> mlist = new LinkedList<>();
+        System.out.println(orderCheck.orderCheck(mlist));
     }
 }

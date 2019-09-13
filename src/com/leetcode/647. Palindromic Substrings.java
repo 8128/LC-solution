@@ -1,4 +1,4 @@
-class solution647 {
+class Solution647 {
     // official answer
     public int official_countSubstrings(String S) {
       int N = S.length(), ans = 0;

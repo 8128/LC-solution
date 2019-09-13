@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/LC-solution.iml" filepath="$PROJECT_DIR$/.idea/LC-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LC-solution.iml" filepath="$PROJECT_DIR$/LC-solution.iml" />
     </modules>
   </component>
 </project>
