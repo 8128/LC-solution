@@ -39,8 +39,13 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Main main = new Main();
-        System.out.println(main.maximumSum(new int[]{1,-2,0,3}));
+//        Main main = new Main();
+//        System.out.println(main.maximumSum(new int[]{1,-2,0,3}));
     //
+        String text = "I would \"surely\" like to \"go to school\".";
+        String[] result = text.split("\"");
+        for (String s:result){
+            System.out.println(s);
+        }
     }
 }
