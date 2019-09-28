@@ -42,10 +42,8 @@ public class Main {
 //        Main main = new Main();
 //        System.out.println(main.maximumSum(new int[]{1,-2,0,3}));
     //
-        String text = "I would \"surely\" like to \"go to school\".";
-        String[] result = text.split("\"");
-        for (String s:result){
-            System.out.println(s);
-        }
+        String[] strings = new String[]{"bca","z","ba","b","bda","bdca"};
+        Arrays.sort(strings);
+        System.out.println(Arrays.toString(strings));
     }
 }
