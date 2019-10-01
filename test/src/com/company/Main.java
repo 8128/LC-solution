@@ -10,10 +10,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
-        int[] arr = new int[]{1,-2,0,3};
-        main.maximumSum(arr);
-        System.out.println(Arrays.toString(arr));
+        HashMap<String, String> hm = new HashMap<>();
+        System.out.println(hm.size());
+        hm.getOrDefault("aaa","aaa");
+        System.out.println(hm.size());
 
     }
 }
