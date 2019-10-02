@@ -1,4 +1,4 @@
-package com.math;
+package com.company.broadway;
 
 import java.util.LinkedList;
 
@@ -59,7 +59,7 @@ public class BaseInteger {
 
     public static void main(String[] args) {
         BaseInteger baseInteger = new BaseInteger();
-        System.out.println(baseInteger.baseInteger("2332011", 4, 32));
-        System.out.println(baseInteger.baseIntegerConverter("2332011", 4, 32));
+        System.out.println(baseInteger.baseInteger("ggg", 32, 2));
+        System.out.println(baseInteger.baseIntegerConverter("ggg", 32, 2));
     }
 }
