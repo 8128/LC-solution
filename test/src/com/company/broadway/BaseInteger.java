@@ -11,11 +11,6 @@ public class BaseInteger {
 
     char[] chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/".toCharArray();
 
-    // official api
-    public String baseInteger(String str, int fromBase, int toBase) {
-        return Integer.toString(Integer.parseInt(str, fromBase), toBase);
-    }
-
     // DIY
     public String baseIntegerConverter (String str, int fromBase, int toBase) {
         return decimalNewBase(stringDecimal(str, fromBase), toBase);
@@ -45,6 +40,9 @@ public class BaseInteger {
 
     public String decimalNewBase (int decimal, int newBase) {
         LinkedList<Character> list = new LinkedList<>();
+        if (decimal == 0) {
+            return "0";
+        }
         while (decimal != 0) {
             int temp = decimal % newBase;
             decimal = decimal/newBase;
@@ -59,7 +57,7 @@ public class BaseInteger {
 
     public static void main(String[] args) {
         BaseInteger baseInteger = new BaseInteger();
-        System.out.println(baseInteger.baseInteger("ggg", 32, 2));
+        //System.out.println(baseInteger.baseInteger("ggg", 32, 2));
         System.out.println(baseInteger.baseIntegerConverter("ggg", 32, 2));
     }
 }
