@@ -28,11 +28,9 @@ public class BeforeAndAfterPuzzle {
             List<String> sameHead = heads.get(tail);
             List<String> sameTail = tails.get(tail);
             int len = tail.length();
-            for (int i = 0; i < sameTail.size(); i++) {
-                for (int j = 0; j < sameHead.size(); j++) {
-                    String firstSentense = sameTail.get(i).substring(0, sameTail.get(i).length() - len);
-                    String secondSentense = sameHead.get(j);
-                    ans.add(firstSentense + secondSentense);
+            for (String tempTail : sameTail) {
+                for (String tempHead : sameHead) {
+                    ans.add(tempTail.substring(0, tempTail.length() - len) + tempHead);
                 }
             }
         }
