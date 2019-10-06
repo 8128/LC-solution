@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/clutter/BeforeAndAfterPuzzle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="537">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -309,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BeforeAndAfterPuzzle">
+  <component name="RunManager" selected="Application.LastAndSecondLast">
     <configuration name="BeforeAndAfterPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.clutter.BeforeAndAfterPuzzle" />
       <module name="test" />
@@ -377,8 +377,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeforeAndAfterPuzzle" />
         <item itemvalue="Application.LastAndSecondLast" />
+        <item itemvalue="Application.BeforeAndAfterPuzzle" />
         <item itemvalue="Application.Dice" />
         <item itemvalue="Application.Necklace" />
         <item itemvalue="Application.TopKStream" />
@@ -404,12 +404,12 @@
       <workItem from="1569637337148" duration="4488000" />
       <workItem from="1569826224413" duration="21225000" />
       <workItem from="1570123656297" duration="10893000" />
-      <workItem from="1570397738426" duration="4102000" />
+      <workItem from="1570397738426" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61502000" />
+    <option name="totallyTimeSpent" value="61730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -424,7 +424,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26938775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26938775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29693878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,12 +459,6 @@
           <line>42</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/clutter/BeforeAndAfterPuzzle.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -701,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/clutter/BeforeAndAfterPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="537">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>

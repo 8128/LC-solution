@@ -11,12 +11,16 @@ public class LastAndSecondLast {
     public String lastAndSecondLast (String string) {
         int len = string.length();
         char last = string.charAt(len - 1);
+        if (len == 1) {
+            return String.valueOf(last);
+        }
         char first = string.charAt(len - 2);
-        return first + " " + last;
+        return last + " " + first;
     }
 
     public static void main(String[] args) {
         LastAndSecondLast lastAndSecondLast = new LastAndSecondLast();
         System.out.println(lastAndSecondLast.lastAndSecondLast("APPLE"));
+        System.out.println(lastAndSecondLast.lastAndSecondLast("E"));
     }
 }
