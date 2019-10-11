@@ -8,21 +8,45 @@ import java.util.*;
  */
 public class TaskScheduler {
 
+    HashSet<Task> allTasks;
+    HashSet<Task> finished;
+
     class Task {
+
         String name;
-        List<Task> dependencies;
+        Set<Task> dependencies;
 
+        public Task(String name) {
+            this.name = name;
+        }
+
+        public void addDependency(Task task) {
+            dependencies.add(task);
+        }
     }
 
-    public void addDependency() {
-
+    public void addDependency(Task task1, Task task2) {
+        task1.addDependency(task2);
+        allTasks.add(task2);
     }
 
-    public void addCompletedTask() {
-
+    public void addCompletedTask(Task task) {
+        finished.add(task);
     }
 
-    public void getRunnab‍‌‍‌‍‍‌‌‌‍‍‍‌‌‍‌‌‍‍leTasks() {
-
+    public List<Task> getRunnab‍‌‍‌‍‍‌‌‌‍‍‍‌‌‍‌‌‍‍leTasks() {
+        List<Task> ans = new ArrayList<>();
+        for (Task task : allTasks) {
+            boolean bl = true;
+            for(Task neededTask : task.dependencies){
+                if (!finished.contains(neededTask)) {
+                    bl = false;
+                }
+            }
+            if (bl) {
+                ans.add(task);
+            }
+        }
+        return ans;
     }
 }
