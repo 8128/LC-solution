@@ -5,10 +5,6 @@ import java.util.*;
 
 public class Main {
 
-    public void maximumSum(int[] arr) {
-        arr[1] = 1;
-    }
-
     public static void main(String[] args) {
         HashMap<String, Integer> hm = new HashMap<>();
         hm.put("abc", 1);
