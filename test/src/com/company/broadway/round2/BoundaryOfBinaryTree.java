@@ -75,5 +75,4 @@ public class BoundaryOfBinaryTree {
         return node.left == null && node.right == null;
     }
 
-
 }

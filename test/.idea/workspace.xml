@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49360461-a122-4593-9330-30e50ff34ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/broadway/round2/BoundaryOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/broadway/round2/BoundaryOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,25 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="200">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/BoundaryOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="192">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
                 <element signature="e#359#360#0" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+                <element signature="e#1747#1748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,10 +135,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rightBoundary</find>
+      <find>nodes</find>
+      <find>idx</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>addRight</replace>
+      <replace>ans</replace>
+      <replace>index</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/math</dir>
@@ -187,21 +191,19 @@
         <option value="$PROJECT_DIR$/src/com/company/casa/WriteIn.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round1/BaseInteger.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/InsertNodeList.java" />
-        <option value="$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/TaskScheduler.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/Band.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/MatrixToLowest.java" />
         <option value="$PROJECT_DIR$/src/com/company/TestThread.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/BoundaryOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-226" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -453,18 +455,18 @@
       <workItem from="1570397738426" duration="4330000" />
       <workItem from="1570403440589" duration="867000" />
       <workItem from="1570520316601" duration="7518000" />
-      <workItem from="1570667308652" duration="4010000" />
+      <workItem from="1570667308652" duration="6308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74125000" />
+    <option name="totallyTimeSpent" value="76423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-226" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16971917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,7 +475,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.20510204" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26138613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29693878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -743,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/InsertNodeList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -803,14 +798,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/BoundaryOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="192">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round2/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
