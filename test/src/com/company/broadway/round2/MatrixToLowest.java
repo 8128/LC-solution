@@ -14,31 +14,31 @@ public class MatrixToLowest {
             return new int[][]{};
         }
         int m = matrix.length, n = matrix[0].length;
-        int[][] cache = new int[m][n];
+        int[][] dp = new int[m][n];
         int[][] ans = new int[m][n];
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                ans[i][j] = dfs(matrix, i, j, cache);
+                ans[i][j] = dfs(matrix, dp, i, j);
             }
         }
         return ans;
     }
 
-    private int dfs(int[][] matrix, int i, int j, int[][] cache) {
+    private int dfs(int[][] matrix, int[][] dp, int i, int j) {
         int m = matrix.length;
         int n = matrix[0].length;
-        if(cache[i][j] != 0) {
-            return cache[i][j];
+        if(dp[i][j] != 0) {
+            return dp[i][j];
         }
         int min = matrix[i][j];
-        for(int[] dir: directions) {
-            int x = i + dir[0], y = j + dir[1];
+        for(int[] direction: directions) {
+            int x = i + direction[0], y = j + direction[1];
             if(x < 0 || x >= m || y < 0 || y >= n || matrix[x][y] > matrix[i][j]) {
                 continue;
             }
-            min = Math.min(dfs(matrix, x, y, cache), min);
+            min = Math.min(dfs(matrix, dp, x, y), min);
         }
-        cache[i][j] = min;
+        dp[i][j] = min;
         return min;
     }
 
