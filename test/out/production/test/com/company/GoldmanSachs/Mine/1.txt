@@ -1,0 +1,46 @@
+class Result {
+
+    /*
+     * Complete the 'maxLCS' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts STRING s as parameter.
+     */
+
+    public static int maxLCS(String s) {
+    // Write your code here
+Map<Character, Integer> rightMap = new HashMap<>();//char, freq
+        for(char c : s.toCharArray()) {
+            rightMap.put(c, rightMap.getOrDefault(c, 0)+1);
+        }
+        
+        int leftend = 0;
+        int common = 0;
+        int maxcom = 0;
+        
+        Map<Character, Integer> leftMap = new HashMap<>();//char, freq
+
+        while(leftend < s.length()) {
+            char c = s.charAt(leftend);
+            if(leftMap.containsKey(c)) common-=Math.min(leftMap.get(c), rightMap.get(c));
+            leftMap.put(c, leftMap.getOrDefault(c,0)+1);
+
+            if(rightMap.get(c) == 1)
+                rightMap.remove(c);
+            else
+                rightMap.put(c,rightMap.get(c)-1);
+            if(rightMap.containsKey(c) && leftMap.containsKey(c))
+                common+=Math.min(leftMap.get(c), rightMap.get(c));
+            if(common > maxcom) {
+                maxcom = common;
+            }
+            leftend++;
+            
+        }
+        
+
+        
+        return maxcom;
+    }
+
+}
