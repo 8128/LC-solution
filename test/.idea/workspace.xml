@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/viagogo/Tickets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+            <state relative-caret-position="562">
+              <caret line="79" column="96" selection-start-line="79" selection-start-column="96" selection-end-line="79" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -314,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OA3Generator">
+  <component name="RunManager" selected="Application.Tickets">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Base" />
       <module name="test" />
@@ -367,12 +367,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TestThread" />
+    <configuration name="Tickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.viagogo.Tickets" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.viagogo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tickets" />
         <item itemvalue="Application.OA3Generator" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Base" />
         <item itemvalue="Application.MatrixToLowest" />
-        <item itemvalue="Application.TestThread" />
       </list>
     </recent_temporary>
   </component>
@@ -414,18 +414,18 @@
       <workItem from="1570520316601" duration="7518000" />
       <workItem from="1570667308652" duration="12957000" />
       <workItem from="1571159973451" duration="4103000" />
-      <workItem from="1571274483327" duration="6177000" />
+      <workItem from="1571274483327" duration="6458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93352000" />
+    <option name="totallyTimeSpent" value="93633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17338218" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17338218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -435,7 +435,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20510204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23469388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23469388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29693878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -819,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/viagogo/Tickets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        <state relative-caret-position="562">
+          <caret line="79" column="96" selection-start-line="79" selection-start-column="96" selection-end-line="79" selection-end-column="96" />
         </state>
       </provider>
     </entry>

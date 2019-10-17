@@ -76,6 +76,10 @@ public class Tickets {
     }
 
     public static void main(String[] args) {
-        
+        Tickets tickets = new Tickets();
+        System.out.println("Test Case 1");
+        tickets.purchaseTicket(5, 2, new String[]{"1 1 1 40", "2 1 4 50"}, 1, new String[]{"3 3"});
+        System.out.println("Test Case 2");
+        tickets.purchaseTicket(5, 2, new String[]{"1 1 1 40 60", "2 1 4 50"}, 3, new String[]{"3 3", "3 2", "4 3"});
     }
 }
