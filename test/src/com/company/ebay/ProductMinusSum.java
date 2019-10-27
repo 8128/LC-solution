@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 public class ProductMinusSum {
     public static void main(String[] args) {
 

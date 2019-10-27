@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 // Give an array and find the count of a pair number and
 // a single number combination in a row of this array.
 // Target array is a[i - 1], a[i], a[i + 1]

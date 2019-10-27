@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 import java.util.*;
 public class MaxArithmeticLength {
     public static void main(String[] args) {

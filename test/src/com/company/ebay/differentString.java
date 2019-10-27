@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 //给一个String  连续三个字符不一样结果就+
 //input"abccde"; output: 2 (abc,cde)
 public class differentString {

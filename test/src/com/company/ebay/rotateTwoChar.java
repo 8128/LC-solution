@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 // 反转连续的两个字符, "abcdef" => "badcfe"
 public class rotateTwoChar {
     public static void main(String[] args) {

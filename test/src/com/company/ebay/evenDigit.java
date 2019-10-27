@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 // how many numbers have even digit in a list.
 //Ex.
 //        Input: A = [12, 3, 5, 3456]

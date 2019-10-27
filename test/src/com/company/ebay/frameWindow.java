@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 public class frameWindow {
     public static void main(String[] args) {
         printWindow(8);

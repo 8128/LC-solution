@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 public class removeOneDigit {
     public static void main(String[] args) {
 

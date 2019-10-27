@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 public class maxSizeOfRibbon {
     public static void main(String[] args) {
         System.out.println(ribbon(new int[]{1,2,3,4,9}, 5));

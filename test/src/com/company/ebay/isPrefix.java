@@ -1,3 +1,5 @@
+package com.company.ebay;
+
 // Given string array A and B. Return true if every string in B
 // can be constructed by the string in A.
 //  input:
