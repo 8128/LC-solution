@@ -1,5 +1,7 @@
 package com.company.mathwork;
 
+import java.util.Stack;
+
 /**
  * @author ：Tianyi Tang
  * @date ：Created in 2019-10-29 15:20
@@ -30,6 +32,24 @@ public class ValidateBST {
         else {
             return isValidBST(node.left, min, node.val) && isValidBST(node.right, node.val, max);
         }
+    }
+
+    public boolean isValidBST2(TreeNode root) {
+        Stack<TreeNode> stack = new Stack();
+        Long prev = Long.MIN_VALUE;
+        while (!stack.isEmpty() || root != null) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if (root.val <= prev) {
+                return false;
+            }
+            prev = (long)root.val;
+            root = root.right;
+        }
+        return true;
     }
 
     public static void main(String[] args) {
