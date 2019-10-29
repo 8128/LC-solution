@@ -33,15 +33,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/blend/WordExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/blend/SpiralMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
@@ -93,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/mathwork/UniquePathsWithObstacles.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/mathwork/CloneGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -151,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/casa/WriteIn.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round1/BaseInteger.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/InsertNodeList.java" />
         <option value="$PROJECT_DIR$/src/com/company/broadway/round2/Band.java" />
@@ -202,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/com/company/blend/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/company/mathwork/MctFromLeafValues.java" />
         <option value="$PROJECT_DIR$/src/com/company/mathwork/UniquePathsWithObstacles.java" />
+        <option value="$PROJECT_DIR$/src/com/company/mathwork/CloneGraph.java" />
       </list>
     </option>
   </component>
@@ -488,12 +488,12 @@
       <workItem from="1571274483327" duration="24390000" />
       <workItem from="1571524841192" duration="4845000" />
       <workItem from="1571727083806" duration="2087000" />
-      <workItem from="1571854006192" duration="16985000" />
+      <workItem from="1571854006192" duration="17627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135482000" />
+    <option name="totallyTimeSpent" value="136124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -560,13 +560,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/broadway/round1/O1TopK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -923,6 +916,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mathwork/CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
