@@ -31,7 +31,7 @@ public class SpiralMatrix {
 
     public static void main(String[] args) {
         SpiralMatrix spiralMatrix = new SpiralMatrix();
-        for (int[] temp : spiralMatrix.spiralMatrix(7,7)) {
+        for (int[] temp : spiralMatrix.spiralMatrix(1,1)) {
             System.out.println(Arrays.toString(temp));
         }
     }
