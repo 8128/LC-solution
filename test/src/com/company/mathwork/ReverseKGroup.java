@@ -1,11 +1,19 @@
 package com.company.mathwork;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.logging.Logger;
+
 /**
  * @author ：Tianyi Tang
  * @date ：Created in 2019-10-30 14:23
  * @leetcode : https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 public class ReverseKGroup {
+
+    Queue<Integer> q  = new LinkedList<>();
+
+    private final static Logger logger = Logger.getLogger(ReverseKGroup.class.getName());
 
     public class ListNode {
         int val;
