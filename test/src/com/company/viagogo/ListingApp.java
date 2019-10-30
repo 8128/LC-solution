@@ -9,6 +9,54 @@ import java.util.List;
  */
 public class ListingApp {
 
+    public interface Supply {
+
+            Event getEvent();
+
+            int getTicketQuantity();
+
+            int getTicketPrice();
+
+            int getId();
+
+            String getSupplier();
+
+    }
+
+    public class SupplyImpl implements Supply{
+
+        Object supplier;
+
+        public SupplyImpl (Object api) {
+            this.supplier = api;
+        }
+
+        @Override
+        public Event getEvent() {
+            return null;
+        }
+
+        @Override
+        public int getTicketQuantity() {
+            return 0;
+        }
+
+        @Override
+        public int getTicketPrice() {
+            return 0;
+        }
+
+        @Override
+        public int getId() {
+            return 0;
+        }
+
+        @Override
+        public String getSupplier() {
+            return null;
+        }
+    }
+
     public static void main(String[] args) throws java.lang.Exception{
         ViagogoApi viagogo = new ViagogoApi();
         SupplierAApi supplierA = new SupplierAApi();
