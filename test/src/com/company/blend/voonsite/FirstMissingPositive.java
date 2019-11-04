@@ -6,13 +6,13 @@ import java.util.*;
  * @date ：Created in 2019-11-03 21:56
  */
 public class FirstMissingPositive {
-    
+
     public int firstMissingPositive(int[] nums) {
         HashSet<Integer> hs = new HashSet<>();
         int j=1;
-        for(int i=0;i<nums.length;i++){
-            hs.add(nums[i]);
-            while(hs.contains(j)){
+        for (int num : nums) {
+            hs.add(num);
+            while (hs.contains(j)) {
                 j++;
             }
         }
@@ -22,12 +22,16 @@ public class FirstMissingPositive {
     public int firstMissingPositive1(int[] A) {
         int i = 0;
         while(i < A.length){
-            if(A[i] == i+1 || A[i] <= 0 || A[i] > A.length) i++;
-            else if(A[A[i]-1] != A[i]) swap(A, i, A[i]-1);
-            else i++;
+            if(A[i] >= 1 && A[i] <= A.length && A[A[i]-1] != A[i]) {
+                swap(A, i, A[i]-1);
+            }else{
+                i++;
+            }
         }
         i = 0;
-        while(i < A.length && A[i] == i+1) i++;
+        while(i < A.length && A[i] == i+1) {
+            i++;
+        }
         return i+1;
     }
 
