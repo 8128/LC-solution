@@ -1,4 +1,4 @@
-package com.company.blend;
+package com.company.blend.voonsite;
 
 import java.util.Arrays;
 
