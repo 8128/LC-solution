@@ -1,3 +1,62 @@
+## why blend
+
+1. So blend is doing something meaningful, that is to improve the consumer lending experience, and I would like to contribute to something meaningful
+2. I think blend's principles are great. So blend trusts each individual to make decisions in their area of responsibility, and that would be helpful in individual contribution, make people want to do more for the whole company
+3. I see that you can have a flexible work schedule at blend, and I think that's great
+
+## Question
+
+1. for the new grad role, how large will the team be? i mean, the project team, commonly how large is the size of a development group?
+
+
+
+Technical questions:
+
+1. I'm interested in the main language used at blend, so i saw on the career page that experience with JavaScript, Angular.js, Node.js, Go, and Python would be a plus. So I do have javascript and python experience, but my main language is still Java, so I'm wondering which is main language at blend, maybe I need to spend more time on that one.
+
+
+
+Blend principle
+
+### Embrace the difficult path
+
+We think beyond shortcuts and invest in solving the right problems.
+
+### Decisions over outcomes
+
+We focus on improving our decision-making quality instead of fixating on immediate outcomes.
+
+### We work smart and hard
+
+We view working “smart” as just the start. Working smart and hard drives improvements and accelerates career growth.
+
+### Empowerment over control
+
+We hire world-class talent and trust each individual to make decisions in their area of responsibility.
+
+
+
+
+
+### Development
+
+- Thoughtful, regular compensation reviews
+- Support for workshops and lectures to develop your craft
+- Meaningful equity and a 401(k) plan
+
+### Wellness
+
+- Comprehensive health benefits covered 100%
+- Sponsored gym memberships, ClassPass credits, or wellness stipend.
+- Lunch, dinner, snacks, and Pizza Fridays
+- On-site meditation, yoga, and massages
+
+### Flexibility
+
+- Flexible work schedule, with open vacation policy
+- 4 months of paid parental or personal leave
+- Convenient location, with parking programs, and flexible commuter options
+
 https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=560530&highlight=blend
 
 1. lc41 两种写法
