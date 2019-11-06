@@ -49,5 +49,7 @@ public class IntervalCounter {
     public static void main(String[] args) {
         IntervalCounter intervalCounter = new IntervalCounter();
         System.out.println(Arrays.deepToString(intervalCounter.intervalCounter(new int[][]{{3,7},{5,7},{7,15},{8,12},{8,20},{14,20}})));
+        System.out.println(Arrays.deepToString(intervalCounter.intervalCounter(new int[][]{{1,2},{5,6},{1,3},{4,10}})));
+        System.out.println(Arrays.deepToString(intervalCounter.intervalCounter(new int[][]{{1,3},{6,7},{2,4},{2,5},{9,12}})));
     }
 }
