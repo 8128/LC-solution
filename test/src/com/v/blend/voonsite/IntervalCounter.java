@@ -8,14 +8,46 @@ import java.util.*;
 public class IntervalCounter {
 
     public int[][] intervalCounter (int[][] input) {
-        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
-        Arrays.sort(input, Comparator.comparingInt(o -> o[0]));
-        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o[1]));
-        pq.offer(input[0]);
-        treeMap.put(input[0][0], 1);
-        for (int i = 1; i < input.length; i++) {
-            int[] temp = pq.poll();
-            if (temp[1] < temp[])
+        int[] start = new int[input.length];
+        int[] end = new int[input.length];
+        for (int i = 0; i < input.length; i++) {
+            start[i] = input[i][0];
+            end[i] = input[i][1];
         }
+        Arrays.sort(start);
+        Arrays.sort(end);
+        TreeMap<Integer, Integer> treeMap = new TreeMap<>();
+        int startPivot = 0;
+        int endPivot = 0;
+        int times = 0;
+        while (startPivot < input.length) {
+            if (start[startPivot] < end[endPivot]) {
+                times++;
+                treeMap.put(start[startPivot], times);
+                startPivot++;
+            } else {
+                times--;
+                treeMap.put(end[endPivot], times);
+                endPivot++;
+            }
+        }
+        while (endPivot < input.length) {
+            times--;
+            treeMap.put(end[endPivot], times);
+            endPivot++;
+        }
+        int[][] ans = new int[treeMap.keySet().size()][2];
+        int i = 0;
+        for (int key : treeMap.keySet()) {
+            ans[i][0] = key;
+            ans[i][1] = treeMap.get(key);
+            i++;
+        }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        IntervalCounter intervalCounter = new IntervalCounter();
+        System.out.println(Arrays.deepToString(intervalCounter.intervalCounter(new int[][]{{3,7},{5,7},{7,15},{8,12},{8,20},{14,20}})));
     }
 }
