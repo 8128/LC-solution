@@ -3,6 +3,7 @@ package com.v.bloomberg.coding;
 /**
  * @author ：Tianyi Tang
  * @date ：Created in 2019-11-06 20:37
+ * @leetcode : https://leetcode.com/problems/maximal-square/
  */
 public class MaximalSquare {
     public int maximalSquare(char[][] matrix) {
