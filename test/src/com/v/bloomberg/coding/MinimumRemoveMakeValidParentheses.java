@@ -23,4 +23,30 @@ public class MinimumRemoveMakeValidParentheses {
             sb.deleteCharAt(Math.abs(st.pop()) - 1);
         return sb.toString();
     }
+
+    //O(1)
+    public String minRemoveToMakeValid1(String s) {
+        StringBuilder sb = new StringBuilder(s);
+        int i = sb.length();
+        int balance = 0;
+        for (int j = sb.length() - 1; j >= 0; j--) {
+            if (sb.charAt(j) == ')') balance++;
+            else if (sb.charAt(j) == '(') {
+                if (balance == 0) continue;
+                balance--;
+            }
+            sb.setCharAt(--i, sb.charAt(j));
+        }
+        int len = 0;
+        balance = 0;
+        for (; i < sb.length(); i++) {
+            if (sb.charAt(i) == '(') balance++;
+            else if (sb.charAt(i) == ')') {
+                if (balance == 0) continue;
+                balance--;
+            }
+            sb.setCharAt(len++, sb.charAt(i));
+        }
+        return sb.substring(0, len);
+    }
 }
