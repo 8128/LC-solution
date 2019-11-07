@@ -15,42 +15,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FirstUniqueChar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FlattenMultilevelDoublyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="56" column="108" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/NumberOfIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/MaximalSquare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/TwoCitySchedCost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="520">
@@ -58,6 +22,61 @@
               <folding>
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConvertSortedListtoBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3052#3061#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/TrappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/MoveZeroes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreePreorderInorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <element signature="e#328#346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreeInorderPostorder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="e#327#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,20 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/UniqueBSTII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -118,6 +128,7 @@
         <option value="Class" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -150,11 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/ebay/removeOneDigit.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ebay/rotateTwoChar.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ebay/rotateWithKTimes.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ebay/sortandorganize.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ebay/sumOfStrings.java" />
         <option value="$PROJECT_DIR$/src/com/company/ebay/coolFeature.java" />
         <option value="$PROJECT_DIR$/src/com/company/blend/WordExpression.java" />
         <option value="$PROJECT_DIR$/src/com/company/blend/GenerateMatrixs.java" />
@@ -188,10 +194,8 @@
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/IntervalCounter.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/EmployeeFreeTime.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/StrStr.java" />
-        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/FirstUniqueChar.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/FlattenMultilevelDoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/SearchRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/PourWater.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/TwoCitySchedCost.java" />
@@ -201,6 +205,13 @@
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/WordBreak.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/LongestConsecutive.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/UniqueBSTII.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/FirstUniqueChar.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ConvertSortedListtoBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ConvertSortedListtoBST.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreePreorderInorder.java" />
+        <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreeInorderPostorder.java" />
       </list>
     </option>
   </component>
@@ -457,12 +468,12 @@
       <workItem from="1571727083806" duration="2087000" />
       <workItem from="1571854006192" duration="22964000" />
       <workItem from="1572419734862" duration="16760000" />
-      <workItem from="1572980395626" duration="20467000" />
+      <workItem from="1572980395626" duration="23865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178688000" />
+    <option name="totallyTimeSpent" value="182086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -529,34 +540,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/v/ebay/rotateTwoChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/ebay/rotateWithKTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/ebay/sumOfStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/ebay/sortandorganize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/ebay/coolFeature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -816,17 +799,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/TrappingRainWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/NumberOfIsland.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FirstUniqueChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FlattenMultilevelDoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -844,17 +841,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FlattenMultilevelDoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/LongestConsecutive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="56" column="108" selection-start-line="56" selection-start-column="108" selection-end-line="56" selection-end-column="108" />
+        <state relative-caret-position="260">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/FirstUniqueChar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="480">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/UniqueBSTII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -869,31 +873,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConvertSortedListtoBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="179">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3052#3061#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/WordBreak.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/LongestConsecutive.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/UniqueBSTII.java">
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreePreorderInorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        <state relative-caret-position="40">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#328#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ConstructBinaryTreeInorderPostorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#327#345#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

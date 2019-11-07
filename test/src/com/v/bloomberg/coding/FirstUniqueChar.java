@@ -4,6 +4,8 @@ package com.v.bloomberg.coding;
  * @author ：Tianyi Tang
  * @date ：Created in 2019-11-06 16:24
  * @leetcode : https://leetcode.com/problems/first-unique-character-in-a-string/
+ * @timeComplexity : O(n)
+ * @spaceComplexity : O(1)
  */
 public class FirstUniqueChar {
     public int firstUniqChar(String s) {
