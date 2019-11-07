@@ -23,26 +23,22 @@ public class LFUCache {
     }
 
     public int get(int key) {
-        if(!vals.containsKey(key)) {
+        if(!vals.containsKey(key))
             return -1;
-        }
         int count = counts.get(key);
         counts.put(key, count+1);
         lists.get(count).remove(key);
-        if(count==min && lists.get(count).size()==0) {
+        if(count==min && lists.get(count).size()==0)
             min++;
-        }
-        if(!lists.containsKey(count+1)) {
+        if(!lists.containsKey(count+1))
             lists.put(count+1, new LinkedHashSet<>());
-        }
         lists.get(count+1).add(key);
         return vals.get(key);
     }
 
     public void put(int key, int value) {
-        if(cap<=0) {
+        if(cap<=0)
             return;
-        }
         if(vals.containsKey(key)) {
             vals.put(key, value);
             get(key);
@@ -59,3 +55,5 @@ public class LFUCache {
         lists.get(1).add(key);
     }
 }
+
+
