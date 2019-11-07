@@ -16,7 +16,7 @@ public class MergeKSortedLists {
         ListNode(int x) { val = x; }
     }
 
-    // NlogN
+    // NlogN n
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists==null||lists.length==0) return null;
 
