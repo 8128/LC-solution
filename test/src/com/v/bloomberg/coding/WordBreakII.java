@@ -24,6 +24,7 @@ public class WordBreakII {
         }
         List<String> res = new LinkedList<>();
         if (start == s.length()) {
+            // it means that it reaches the end of the string
             res.add("");
         }
         for (int end = start + 1; end <= s.length(); end++) {
