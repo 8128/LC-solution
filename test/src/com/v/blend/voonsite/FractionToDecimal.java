@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * @author ：Tianyi Tang
  * @date ：Created in 2019-11-06 00:06
+ * @leetcode : https://leetcode.com/problems/fraction-to-recurring-decimal/
  */
 public class FractionToDecimal {
     public String fractionToDecimal(int numerator, int denominator) {

@@ -4,6 +4,7 @@ import java.util.*;
 /**
  * @author ：Tianyi Tang
  * @date ：Created in 2019-11-06 01:14
+ * @leetcode : https://leetcode.com/problems/employee-free-time/
  */
 public class EmployeeFreeTime {
     class Interval {
