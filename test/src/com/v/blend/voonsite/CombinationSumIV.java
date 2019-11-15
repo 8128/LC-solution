@@ -8,6 +8,8 @@ import java.util.*;
  * @timeComplexity :
  * @spaceComplexity :
  */
+
+
 public class CombinationSumIV {
     private int[] dp;
 
@@ -29,6 +31,20 @@ public class CombinationSumIV {
             }
         }
         dp[target] = res;
+        return res;
+    }
+
+    //recursive
+    public int combinationSum42(int[] nums, int target) {
+        if (target == 0) {
+            return 1;
+        }
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (target >= nums[i]) {
+                res += combinationSum42(nums, target - nums[i]);
+            }
+        }
         return res;
     }
 }

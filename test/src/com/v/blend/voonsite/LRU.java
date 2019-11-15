@@ -4,10 +4,15 @@ import java.util.*;
 /**
  * @author :   Tianyi Tang
  * @date :   Created in 2019-11-14 03:19
- * @leetcode :  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+ * @leetcode :  https://leetcode.com/problems/lru-cache/
  * @timeComplexity :
  * @spaceComplexity :
  */
+
+//because we are designing a least recently used (LRU) cache, we
+// can use the double linked list, so if we use some item again,
+// we can put the item back to the front, and the tail one will be the least recently
+// used one
 public class LRU {
 
     class DLinkedNode {
@@ -56,7 +61,7 @@ public class LRU {
         return res;
     }
 
-    private Map<Integer, DLinkedNode> cache = new HashMap<>();
+    private Map<Integer, DLinkedNode> hm = new HashMap<>();
     private int size;
     private int capacity;
     private DLinkedNode head, tail;
@@ -76,9 +81,10 @@ public class LRU {
     }
 
     public int get(int key) {
-        DLinkedNode node = cache.get(key);
-        if (node == null) return -1;
-
+        DLinkedNode node = hm.get(key);
+        if (node == null) {
+            return -1;
+        }
         // move the accessed node to the head;
         moveToHead(node);
 
@@ -86,14 +92,14 @@ public class LRU {
     }
 
     public void put(int key, int value) {
-        DLinkedNode node = cache.get(key);
+        DLinkedNode node = hm.get(key);
 
         if(node == null) {
             DLinkedNode newNode = new DLinkedNode();
             newNode.key = key;
             newNode.value = value;
 
-            cache.put(key, newNode);
+            hm.put(key, newNode);
             addNode(newNode);
 
             ++size;
@@ -101,7 +107,7 @@ public class LRU {
             if(size > capacity) {
                 // pop the tail
                 DLinkedNode tail = popTail();
-                cache.remove(tail.key);
+                hm.remove(tail.key);
                 --size;
             }
         } else {

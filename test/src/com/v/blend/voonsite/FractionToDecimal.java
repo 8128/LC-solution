@@ -8,13 +8,15 @@ import java.util.*;
  * @leetcode : https://leetcode.com/problems/fraction-to-recurring-decimal/
  */
 public class FractionToDecimal {
+
+    //elementary math knowledge, to perform a long division?
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) {
             return "0";
         }
         StringBuilder fraction = new StringBuilder();
         // If either one is negative (not both)
-        if (numerator < 0 ^ denominator < 0) {
+        if (numerator < 0 || denominator < 0) {
             fraction.append("-");
         }
         // Convert to Long or else abs(-2147483648) overflows

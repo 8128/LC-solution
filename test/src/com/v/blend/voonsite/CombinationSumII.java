@@ -8,32 +8,36 @@ import java.util.*;
  * @timeComplexity :
  * @spaceComplexity :
  */
+
+// if we can only use one integer once
 public class CombinationSumII {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> comb = new ArrayList<>();
-        Arrays.sort(candidates); // need sort to make this work.
-        combination(candidates, target, 0, comb, ans);
-        return ans;
+        Arrays.sort(candidates);
+        List<List<Integer>> result = new ArrayList<>();
+        combination(candidates, target, 0, new ArrayList<>(), result);
+        return result;
     }
 
-    private void combination(int[] candi, int target, int start,
-                             List<Integer> comb, List<List<Integer>> ans) {
-        for (int i = start; i < candi.length; i++) {
-            if (i > start && candi[i] == candi[i - 1]) //remove duplicates.
+    private void combination(int[] candidates, int target, int start,
+                             List<Integer> cur, List<List<Integer>> result) {
+        for (int i = start; i < candidates.length; i++) {
+            //the one that needed to be added remove duplicates.
+            if (i > start && candidates[i] == candidates[i - 1]) {
                 continue;
-            if (candi[i] == target) {
+            }
+            if (candidates[i] == target) {
                 //recursion exit.
-                List<Integer> newComb = new ArrayList<>(comb);
-                newComb.add(candi[i]);
-                ans.add(newComb);
-            } else if (candi[i] < target) {
+                ArrayList<Integer> ans = new ArrayList<>(cur);
+                ans.add(candidates[i]);
+                result.add(ans);
+            } else if (candidates[i] < target) {
                 //continue to look for the rest.
-                List<Integer> newComb = new ArrayList<>(comb);
-                newComb.add(candi[i]);
-                combination(candi, target - candi[i], i + 1, newComb, ans);
-            } else
-                break; //invalid path, return nothing.
+                cur.add(candidates[i]);
+                combination(candidates, target - candidates[i], i + 1, cur, result);
+                cur.remove(cur.size() - 1);
+            } else {
+                break;
+            }
         }
     }
 }

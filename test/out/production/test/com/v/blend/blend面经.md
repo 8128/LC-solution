@@ -57,26 +57,28 @@ We hire world-class talent and trust each individual to make decisions in their 
 - 4 months of paid parental or personal leave
 - Convenient location, with parking programs, and flexible commuter options
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=560530&highlight=blend
+## Leetcodes
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=560530&highlight=blend
 
 1. lc41 两种写法
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=534357&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=534357&highlight=blend
 
 1. 560
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=558756&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=558756&highlight=blend
 
 1. 2 sum
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=473809&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=473809&highlight=blend
 
 1.  Subarray sum to K
 2. 不知道这题有没有什么好一点的解法，我用了比较naive的方法...最后没时间也就稍微讨论了一下time/space complexity
      input: a list of pair (3,7) (5,7) (5,7) (7,15) (8,12) (8,20) (14,20) 第一个表示一条record开始时间，第二个表示结束时间
      output: a list of pair (3, 1) (5, 2) (7, 1) (8, 3) (12, 2) (14, 3) (15, 2) (20, 0) 表示(time -> count) time 3时候有1条record active， time 5的时候有两条record active etc. input只有integer，区间范围左闭右开
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=388024&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=388024&highlight=blend
 
  phone:
 
@@ -92,13 +94,13 @@ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=388024&highlight=b
 
 ​          \4. 类似于 LC 起舞就
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=473165&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=473165&highlight=blend
 
 请多指教，请赏大米~ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 问题描述： 几乎和LintCode 838一样。给定一个integer array和一个整数target，求出这个数组中的一个subarray元素加起来等于target。如果有多个满足要求的subarray，找出任意一个就行。如果找不到这样的subarray，返回null. 注意：要求返回一个数组  我在面试时的解答: 基本题目，利用preSum array和HashMap
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=466925&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=466925&highlight=blend
 
-第一轮：
+第一轮：spiral matrix
 
 
 
@@ -119,15 +121,19 @@ determine whether there is a substring of the text that matches the target strin
 
 其实就是利口28，然而要求我用O(n)的时间复杂度实现。我：要用KMP吗？面试官：你知道KMP？KMP太复杂了，你写不完的。用rolling hash写。我：...（内心mmp）
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=281475&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=281475&highlight=blend
 
 ![IMG_5137.JPG](https://oss.1point3acres.cn/forum/201705/27/020725t3tiese17ne1nvjk.jpg)
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=461318&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=465827&highlight=blend
+
+本来第一轮没遇到地里的题还想着是不是开始出新题了，所以还狂刷利口来着。第二轮两个背靠背都是地里原题，matrix的那道，跟电话号码那个，各有一个follow up.求点大米。 
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=461318&highlight=blend
 
 timeline:  10月中旬内推 10月底oa，地里原题, 不难 11.8电面： 面了merge k LinkedList，第一步是给的sorted string，要先把string转成linkedlist，自己定义listNode class，实现它要求的两个function, parseString 和print函数，然后第二步才是merge k LinkedList。给的input是array of sort strings，然后把所有string 转成linkedlist，再merge所有linkedlist后打印出来。  电面两个工作日后收到next-step消息，是两轮背靠背。  求加米！！
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=460257&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=460257&highlight=blend
 
 店面面的是fraction to Decimal, onsite面的是地里的generate matrix和lisp interpreter
 
@@ -373,30 +379,32 @@ def generateMatrix(width, height):
 
 求大米呀，可怜的我只有15个大米
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=460766&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=460766&highlight=blend
 
 这次的题目是类似 污而散。给出一个input vector和target，如果有一个subarray的sum等于target，返回这个subarray。如果没有则返回空。如果有多种solution的话，返回最先发现的那个即可。input vector是有负数的，target也是可以为负数。subarray本身并没有最小长度限制，会出现input有一个值就等于target。有几个edge case，要注意如果整个vector的sum等于target的时候情况。
 
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=459508&highlight=blend
 
+先说下，地里的那十几到题都没有考到，现在看来**blend**是基本按照你的简历来针对性的出问题问了有向图如何判断cycle，followup是无向图判断cycle。  遇到的面试官人感觉非常好。详细介绍了公司的情况与小组的区别。然后让我简单介绍了简历上的两个project。因为其中一个project跟地图有关系，所以他很感兴趣。出题前也是明说，既然你比较熟悉，那就考你一下graph的题好了。 解体的过程中会主动给你提建议，跟你探讨会出现的情况，并且引导你作出正确的答案。虽然题不难。最后还给出了一些简历上的意见。最后有说觉得我很有机会进入下一轮。虽然面试官的话只能信一半吧。但当场能有feedback也很高兴。  最后插一句，blend感觉现在在湾区越来越出名了。去年跟今年都上了breakout list。8月份在做mortgage的基础上也开始步入insurance的市场。因为比较unique，感觉潜力很大。（顺便提下另一家flexport， 如果有同学大厂没能把握机会，找类似这两种潜力很大startup也是很好的选择） 求米！
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=457660&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=457660&highlight=blend
 
 九月份内推的，10月底OA，今天第一轮电面。面试官应该是美国人backend team，语速略快，他讲的挺多的，整个过程一小时，一道hard, 本质是merge k sorted lists. 但本人写了三处typo。。。听天由命 本人用的heap， 面试官最后建议divide&conquer, 就不用extra space了。 求米谢谢大家！
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=418032&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=418032&highlight=blend
 
 Round 2 - 店面PS1 一群人用电脑，根据各人需要上机的时刻， 判断需要多少台电脑。LZ用扫描线做的。
 等待下一个店面PS2
 求加米求onsite！
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=341230&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=341230&highlight=blend
 
 \1. 蠡口 妖污留
 \2. 蠡口 污耳酒 相类似的，最后变成一个OOD design
 \3. 地里面经题， 蠡口 污私 变形
 \4. 路口红绿灯题，考OOD和实现
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=456588&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=456588&highlight=blend
 
 之前它家考过有道是add和mul的 现在变形成add和sub
 
@@ -407,7 +415,7 @@ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=456588&highlight=b
  ( sub ( add 1 2 ) 5 ) => -2 
 ( sub 7 2 3 ) => 2
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452682&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452682&highlight=blend
 
 一个美国口音男码农用三藩电话打来，扯淡十分钟，干了啥，为什么微服务架构、怎么知道我们公司之类的。
 [size=12.789999961853027px]CoderPad做题，莉蔻无而散的变形，输入有负数。给定一个整数数组和一个target，返回一段和是target的子数组。
@@ -420,11 +428,11 @@ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=452682&highlight=b
 
 完了就是尬聊，约定一个小时半个小时就面完了……
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=456023&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=456023&highlight=blend
 
 介绍product，然后问了不到十分钟的简历  面的是粒扣奇散遛的简单版 
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=455223&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=455223&highlight=blend
 
 上周五面的，两轮视频昂赛。挂在第二轮了，面试官问了些BQ，关于**blend**
 
@@ -444,16 +452,16 @@ Lisp-like Interpreter
 上面的例子里，int array 可以是：[1,2,5] 此时的差值绝对值之和是：0.3 + 0.8 + 0.1 = 1.2 ； 但如果 int array 是：[0,3,5]，此时差值绝对值之和是：0.7 + 0.2 + 0.1 = 1，此时最小，所以答案是 [0,3,5]
 最后的思路是，因为每个元素都可以有两种取法，向上或者向下，跑一次dfs，拿到所有sum == 8 的int array，再去计算差值绝对值之和，取最小那个。不知道思路对不对，最后也没实际跑代码。。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=288894&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=288894&highlight=blend
 
 **blend** 2018 summer 实习 面筋！！  七月初 HR contact 我，和HR聊了一下，发来了OA。OA和地里以前的一样（自己搜一下，感谢前辈！！） OA过后，约电面。电面LRU，问的比较细。电面过了，约virtual onsite，两轮back to back，一轮是要process string，有点类似于valid parenthesis。一轮是spiral matrix变形。。。  spiral matrix 做得太快了，结果面试官说再来一道吧。。。哭晕在厕所。。新的一道也是spiral matrix 的变形，但是要求更细 （好好仔细看leetcode discussion）！！  发个面筋，攒个人品，求offer！！
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=439451&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=439451&highlight=blend
 
 上周五面的，李口舞期
 面得不好，用的方法是把给的interval放入list里面，再sort一遍开始的点，然后for loop比较值，所以是nlogn。应该直接讨论interval的情况，应该是liner。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=446718&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=446718&highlight=blend
 
 最近面的。网上海投，投完给的店面，之后给的onsite  店面： 给一个grid，一个机器人在里面move， 可以move四个方向， 找出从左上到右下角move不重复格子路线的数量， 不必走完所有的格子  onsite - 找出所有人都有空的区间，秒了之后在聊天 - 午饭 - 找出一个unsorted 数组里miss的第一个正整数，【1， 2，0】 返回3这样子。写个一个sort的解法，然后想了先扫一遍找到最大值，然后一个开最大值数组，然后扫一遍的解法，最后被提示了之后，开一个从1到数组长度的数组的解法， 然后实现了两种解法，最后写test case 和 test suite
 
@@ -462,7 +470,12 @@ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=446718&highlight=b
 
 \- 利口上找出循环小数那题。。。很累了写得很紧张。。。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=450314&highlight=blend
+
+
+
+发面经攒RP求过
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=450314&highlight=blend
 
 大哥先介绍了他们做什么，感觉他自己也不是很清楚整体结构。。。他刚工作七个月
 
@@ -473,13 +486,13 @@ https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=450314&highlight=b
 因为我没用python写过linkedlist，所以C++花了不少时间搞定syntax写第一部分
 最后第二个部分只写了想法，分析了复杂度
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=323540&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=323540&highlight=blend
 
 听说发帖能够攒人品拿offer，同时也谢谢地里的人一直以来给我的帮助，并祝各位新春快乐，offer多多。  Timeline：1月底内推，2月初recruiter 打我的电话，2月9号一面，2月16号video onsite  总体来说面试经历很不错，HR回复非常迅速，面试官态度友好。题目和地里面别人说的还真不太一样，所以觉得有发帖的必要。  一面：Write a funtion that takes a list of positive intergers and a target positive integer, return true if there is a contiguous series that equals the target.  ex: [1,5,7,3,9,1,3] , 20-> true(7,3,9,1)  video onsite:  第一轮： **Divide two integers. Surround repeating sequence in decimal part with parentheses. For example,****divide(4, 2) = "2" divide(2, 4) = "0.5" divide(1, 3) = "0.(3)" divide(1, 7) = "0.(142857)"**** ****第二轮：Spiral Matrix（和地里的一样）** 喜欢这家公司，面试官三个都是Caltech/Stanford毕业的，而且很喜欢这样小型/有钱的startup，希望能够拿到Offer!!
 
 
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=224671&fromuid=197541
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=224671&fromuid=197541
 
 是一个特别耐心的美国小哥给我面的。这个题目一开始居然没有想到是用merge interval来做，而且到后面命名变量的时候有点儿慌，导致到后面错误使用的变量，然后结果一直不对，幸好在最后写出来了。。。但是。。。感觉面的很是不好啊。。。求人品，求onsite! 刚刚收到pocket gems的据信好伤心啊
 Suppose we want to build a scheduling app. We have the times people are currently busy, e.g.
@@ -499,7 +512,7 @@ Alice, Bob => [(0, 9), (12, 13.5), (17, 24)]
 Bob, Mallory => []
 Alice, Bob, Eve => [(0, 9), (12, 12.5), (18, 24)]
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=364536&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=364536&highlight=blend
 
 还不知道结果，先发了面经吧。
 
@@ -563,15 +576,15 @@ class MyTest(unittest.TestCase):
 unittest.main()
 ```
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=341205&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=341205&highlight=blend
 
 小哥问了蠡口 妖器之后问了一些相关的follow-up，比如怎么快速的查找啊？ -- 生成一个look up table {'23': ['ad', 'ae']} 还有一个follow-up忘了，总之基本就是怎么构建一个look up table之类的。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=304916&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=304916&highlight=blend
 
 Blend两轮挂第一轮：里口式旗 follow-up是如果要打字的时候，输出单词是在字典里头的怎么办，回答用trie 第二轮：丽抠而吴伞的变形，有很多人，每个人都给一个没空的区间，要得到所有人都有空的区间，方法类似丽抠而吴伞，把大家没空的都merge出来，然后取反就是大家都有空的时间了 莫名被挂不给反馈
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=310645&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=310645&highlight=blend
 
 上个星期四面完Blend的virtual onsite，就是两个背靠背的视频电面。整个申请Blend的timeline是这样：
 
@@ -584,45 +597,30 @@ Blend是个startup，但是感觉非常不错。我之前把地里关于Blend的
 
 我还没收到结果。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=308278&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=308278&highlight=blend
 
 先说一下时间线：  10月底内推 做完OA 和HR打了一个十分钟的电话 十一月上电面 期间video被鸽了一周 十二月初二面两轮back-to-back OA和地里前辈发的一样 电面丽扣司诗怡 美国小哥哥 当天就收到邮件约video back-to-back 第一轮美国小哥哥 丽扣无事撕变形。打印m*n matrix row和row，col和col中间空一行。举一个栗子！ 1 1 1 1 1 1       1  1 1 1 1      1 1 1 1 1 1 第二轮abc小姐姐 原题地里也有前辈分享过了（感恩的心）。给一串人各自没有空的时间区间，求指定几个人都有空的时间。 地里的帖子：http://www.1point3acres.com/bbs/thread-224671-1-1.html  Over！ 攒个人品求offer
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=306852&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=306852&highlight=blend
 
 OA后和recruiter打了个电话就约电面，美国小哥哥面的first missing positive，结束问了下复杂度，尬聊一会就结束了。第二天recruiter说positive feedback 之后约了两轮背靠背，求一波人品，积一下德。 
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=301274&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=301274&highlight=blend
 
 就简历和算法题 输入1和3，返回一个string把重复的部分包起来如，0.(3) 
 
 | 做除法，注意有更复杂的case，比如1/11,1/12                    |
 | ------------------------------------------------------------ |
-| https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=217829&highlight=blend |
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=217829&highlight=blend 
 
 最近打算有空的时候就陆续发自己找工的面试题目回馈下大家。。先来发个小众的Startup，Blend。这个是我当时实习时候，参加了旧金山的一个招聘交流会投的一个公司（忘记交流会全名是什么，都是湾区很多很不错的Startup和已经在湾区实习生的一个交流招聘会）。Blend主要业务是给银行做房贷系统。感觉差不多已经开始盈利。然后bar不低，感觉公司至少20%的员工都是Standford毕业的。一开始两轮电面 （由于8月份面的，真的不记得很多detail了）： 1: 第一题是类似leetcode的sprial matrix的小变形。 2: 第二题真的不记得。  Onsite： 他们家要求自己带laptop去写，不是写白板上，但题目都不难。 1: 一个微软跳槽来的小哥。要求实现类似数据库的inner join, outer join。然后为了简化，input就拿矩阵当作table。 中午吃饭，午餐很不错，据说从周边餐厅订的。 2；一个印度小妹演示他们家的系统。 3: 又开始面，很简单的一题，问一个二维矩阵，从左上角走到走下角，不重复走一个格，return几种可能。 4: 三轮的面试官要吹下，Standford的物理PhD，毕业后创办了一个农业科技公司，成功被收购。休息了一段时间，作为第8（9？）个员工加入Blend。不过问的题目很简单。就说他之前农业公司会检查样品，编号比如100，101，102，103，。。。但有时候农民会按错，比如100，101，103，104，。。又或者100，101，1ab，。所以检测这种异常情况。然后如果不连续的数字很大，就假设是故意的，没问题。。比如100，101，200，201.。。。一开始被大神吓到了，后来发现够简单的，可以用库函数，比如Integer.valueOf()，扫一遍就可以。之后就聊聊天，问大神为什么选择Blend。他就吐槽了Facebook，Uber一会。。前者只会让青少年浪费时间点击各种广告，后者n年没几个new feature。。Blend他觉得够cool。。 5: 四面也是很简单，1d和2d的快速求子数组的和。比如求数组array[5,6,...10]的和，数组不可变，连线段树都不用。 6: 五面终极boss，CTO。终于遇到了道难度不低题目（因为之前没见过这题）。其实也是很典型的interval问题。给出一堆员工上班的时间，[5,10）,[8,9）,[9,12）,。。求最多有多少个员工在同时上班。。实现的时候要求避免定义其他辅助类（提高难度）。。我写出来但代码很冗余，经提醒把代码弄的elegant了不少。。后来聊天，刚毕业，CTO大神拿到flag等等n多offer，后来决定加入一个Startup（很有名气，但面试有段时间了，忘记他说哪家了），那家Startup上市做大后决定离开，加入Blend。  后来两天后收到拒信。个人感觉这次面试是偶那么多面试表现的最好之一。被拒主要原因（根据Recruiter的反馈和我自己猜测），技术不是很match，他们需要full stack等网页开发或者后台开发，然后暂时来说他们更想focus在开发各种new feature而不是做什么数据挖掘，我刚毕业的光会做题的确不够bar。
 
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=224671&highlight=blend
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=195364&highlight=blend
 
-是一个特别耐心的美国小哥给我面的。这个题目一开始居然没有想到是用merge interval来做，而且到后面命名变量的时候有点儿慌，导致到后面错误使用的变量，然后结果一直不对，幸好在最后写出来了。。。但是。。。感觉面的很是不好啊。。。求人品，求onsite! 刚刚收到pocket gems的据信好伤心啊
-Suppose we want to build a scheduling app. We have the times people are currently busy, e.g.
-{
- Alice: [(13.5, 14), (15.75, 17)],
- Bob: [(9, 12), (13, 14), (14, 16)],
- Eve: [(9, 11), (12.5, 13.5), (14, 15), (16, 18)]
- Mallory: [(0, 9), (12, 24)]
-}
-
-For simplicity, lets represent times as numbers between 0 and 24 and the times people are busy as (start_time, end_time) pairs. For example, (13.5, 14) means that Alice is busy from 1:30PM-2PM.
-
-Given a list of people's schedules, write a function to return a list of the time intervals all the people in the list are free to meet.
-
-For the example above, here's some sample output:
-Alice, Bob => [(0, 9), (12, 13.5), (17, 24)]
-Bob, Mallory => []
-Alice, Bob, Eve => [(0, 9), (12, 12.5), (18, 24)]
-
-
-
-https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=195364&highlight=blend
 first Missing Positive
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=223952&highlight=blend
+
+刚刚面了1面，问了地里面之前面的小伙伴，他们有面过unique paths的 我面的是lru cache, 这个题目单纯写还是要写挺久的，磕磕绊绊半个小时才写完。 小哥非常nice, inital是AL 攒人品！求二面！
+
