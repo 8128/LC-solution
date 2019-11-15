@@ -18,11 +18,13 @@ public class BinaryTreeUpsideDown {
 
     // recursive
     public TreeNode upsideDownBinaryTree(TreeNode root) {
+        // if root == null it should return itself
+        // if root.left == null then it means that it is the new root
         if(root == null || root.left == null) {
             return root;
         }
-
         TreeNode newRoot = upsideDownBinaryTree(root.left);
+        // the node one the left side will be on the top
         // node 2 left children
         root.left.left = root.right;
         // node 2 right children
