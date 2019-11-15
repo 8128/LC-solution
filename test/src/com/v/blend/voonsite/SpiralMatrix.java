@@ -9,10 +9,11 @@ import java.util.*;
  * @spaceComplexity :
  */
 public class SpiralMatrix {
-    public List < Integer > spiralOrder(int[][] matrix) {
+    public List <Integer> spiralOrder(int[][] matrix) {
         List ans = new ArrayList();
-        if (matrix.length == 0)
+        if (matrix.length == 0) {
             return ans;
+        }
         int r1 = 0, r2 = matrix.length - 1;
         int c1 = 0, c2 = matrix[0].length - 1;
         while (r1 <= r2 && c1 <= c2) {

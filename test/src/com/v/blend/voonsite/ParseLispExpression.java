@@ -25,19 +25,26 @@ public class ParseLispExpression {
         // create a new scope, add add all the previous values to it
         Map<String, Integer> map = new HashMap<>();
         map.putAll(parent);
-        List<String> tokens = parse(exp.substring(exp.charAt(1) == 'm' ? 6 : 5, exp.length() - 1));
+        //This is to skip the most outter parentheses
+        // and the protected keyword like add,let,multi. We can do it alternatively:
+        List<String> tokens = parse(exp.substring(exp.indexOf(" ")+1, exp.length()-1));
         // add
         if (exp.startsWith("(a")) {
             return eval(tokens.get(0), map) + eval(tokens.get(1), map);
         }// mult
-        else if (exp.startsWith("(m")) {
+        else if (exp.startsWith("(s")){
+            return eval(tokens.get(0), map) - eval(tokens.get(1), map);
+        } else if (exp.startsWith("(m")) {
             return eval(tokens.get(0), map) * eval(tokens.get(1), map);
-        } else { // let
-            for (int i = 0; i < tokens.size() - 2; i += 2) {
-                map.put(tokens.get(i), eval(tokens.get(i + 1), map));
-            }
-            return eval(tokens.get(tokens.size() - 1), map);
+        } else {
+            return eval(tokens.get(0), map) / eval(tokens.get(1), map);
         }
+//        else { // let
+//            for (int i = 0; i < tokens.size() - 2; i += 2) {
+//                map.put(tokens.get(i), eval(tokens.get(i + 1), map));
+//            }
+//            return eval(tokens.get(tokens.size() - 1), map);
+//        }
     }
     private List<String> parse(String str) {
         // seperate the values between two parentheses
@@ -58,5 +65,10 @@ public class ParseLispExpression {
             res.add(new String(sb));
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        ParseLispExpression parseLispExpression = new ParseLispExpression();
+        System.out.println(parseLispExpression.evaluate("(div 2 (sub 8 4))"));
     }
 }
