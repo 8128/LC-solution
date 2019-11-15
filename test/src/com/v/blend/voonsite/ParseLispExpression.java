@@ -11,33 +11,27 @@ import java.util.*;
 public class ParseLispExpression {
 
     public int evaluate(String expression) {
-        return eval(expression, new HashMap<>());
+        return eval(expression);
     }
 
-    private int eval(String exp, Map<String, Integer> parent) {
+    private int eval(String exp) {
         if (exp.charAt(0) != '(') {
             // just a number or a symbol, even no brackets
-            if (Character.isDigit(exp.charAt(0)) || exp.charAt(0) == '-') {
-                return Integer.parseInt(exp);
-            }
-            return parent.get(exp);
+            return Integer.parseInt(exp);
         }
-        // create a new scope, add add all the previous values to it
-        Map<String, Integer> map = new HashMap<>();
-        map.putAll(parent);
         //This is to skip the most outter parentheses
         // and the protected keyword like add,let,multi. We can do it alternatively:
         List<String> tokens = parse(exp.substring(exp.indexOf(" ")+1, exp.length()-1));
         // add
         if (exp.startsWith("(a")) {
-            return eval(tokens.get(0), map) + eval(tokens.get(1), map);
+            return eval(tokens.get(0)) + eval(tokens.get(1));
         }// mult
         else if (exp.startsWith("(s")){
-            return eval(tokens.get(0), map) - eval(tokens.get(1), map);
+            return eval(tokens.get(0)) - eval(tokens.get(1));
         } else if (exp.startsWith("(m")) {
-            return eval(tokens.get(0), map) * eval(tokens.get(1), map);
+            return eval(tokens.get(0)) * eval(tokens.get(1));
         } else {
-            return eval(tokens.get(0), map) / eval(tokens.get(1), map);
+            return eval(tokens.get(0)) / eval(tokens.get(1));
         }
 //        else { // let
 //            for (int i = 0; i < tokens.size() - 2; i += 2) {
@@ -69,6 +63,6 @@ public class ParseLispExpression {
 
     public static void main(String[] args) {
         ParseLispExpression parseLispExpression = new ParseLispExpression();
-        System.out.println(parseLispExpression.evaluate("(div 2 (sub 8 4))"));
+        System.out.println(parseLispExpression.evaluate("(div 2 (sub 2 4) )"));
     }
 }
