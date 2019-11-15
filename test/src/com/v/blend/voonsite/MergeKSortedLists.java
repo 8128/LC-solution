@@ -19,7 +19,9 @@ public class MergeKSortedLists {
     }
 
     public ListNode mergeKLists(ListNode[] lists) {
-        if (lists==null||lists.length==0) return null;
+        if (lists==null||lists.length==0) {
+            return null;
+        }
 
         PriorityQueue<ListNode> queue= new PriorityQueue<ListNode>(lists.length,new Comparator<ListNode>(){
             @Override
@@ -31,16 +33,19 @@ public class MergeKSortedLists {
         ListNode dummy = new ListNode(0);
         ListNode tail=dummy;
 
-        for (ListNode node:lists)
-            if (node!=null)
+        for (ListNode node:lists) {
+            if (node!=null) {
                 queue.add(node);
+            }
+        }
 
         while (!queue.isEmpty()){
             tail.next=queue.poll();
             tail=tail.next;
 
-            if (tail.next!=null)
+            if (tail.next!=null) {
                 queue.add(tail.next);
+            }
         }
         return dummy.next;
     }
@@ -49,8 +54,9 @@ public class MergeKSortedLists {
     // divide and conquer
     public ListNode mergeKLists2(ListNode[] lists) {
         // Corner cases.
-        if (lists == null || lists.length == 0)
+        if (lists == null || lists.length == 0) {
             return null;
+        }
 
         return mergeKLists(lists, 0, lists.length - 1);
     }

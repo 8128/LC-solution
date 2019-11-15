@@ -9,27 +9,33 @@ import java.util.*;
  * @spaceComplexity :
  */
 public class ParseLispExpression {
+
     public int evaluate(String expression) {
         return eval(expression, new HashMap<>());
     }
+
     private int eval(String exp, Map<String, Integer> parent) {
         if (exp.charAt(0) != '(') {
-            // just a number or a symbol
-            if (Character.isDigit(exp.charAt(0)) || exp.charAt(0) == '-')
+            // just a number or a symbol, even no brackets
+            if (Character.isDigit(exp.charAt(0)) || exp.charAt(0) == '-') {
                 return Integer.parseInt(exp);
+            }
             return parent.get(exp);
         }
         // create a new scope, add add all the previous values to it
         Map<String, Integer> map = new HashMap<>();
         map.putAll(parent);
         List<String> tokens = parse(exp.substring(exp.charAt(1) == 'm' ? 6 : 5, exp.length() - 1));
-        if (exp.startsWith("(a")) { // add
+        // add
+        if (exp.startsWith("(a")) {
             return eval(tokens.get(0), map) + eval(tokens.get(1), map);
-        } else if (exp.startsWith("(m")) { // mult
+        }// mult
+        else if (exp.startsWith("(m")) {
             return eval(tokens.get(0), map) * eval(tokens.get(1), map);
         } else { // let
-            for (int i = 0; i < tokens.size() - 2; i += 2)
+            for (int i = 0; i < tokens.size() - 2; i += 2) {
                 map.put(tokens.get(i), eval(tokens.get(i + 1), map));
+            }
             return eval(tokens.get(tokens.size() - 1), map);
         }
     }
@@ -48,7 +54,9 @@ public class ParseLispExpression {
                 sb.append(c);
             }
         }
-        if (sb.length() > 0) res.add(new String(sb));
+        if (sb.length() > 0) {
+            res.add(new String(sb));
+        }
         return res;
     }
 }
