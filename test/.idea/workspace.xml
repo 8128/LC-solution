@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/CriticalConnectionsNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
+            <state relative-caret-position="170">
               <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
             </state>
           </provider>
@@ -197,8 +197,6 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="279" />
-    <option name="y" value="1080" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -416,15 +414,15 @@
       <workItem from="1574068849921" duration="407000" />
       <workItem from="1574151068485" duration="884000" />
       <workItem from="1574565316107" duration="2163000" />
-      <workItem from="1574823104643" duration="1153000" />
+      <workItem from="1574823104643" duration="1300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33010000" />
+    <option name="totallyTimeSpent" value="33157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="1080" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22889842" />
@@ -754,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/CriticalConnectionsNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="170">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
