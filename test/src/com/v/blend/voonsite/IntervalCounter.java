@@ -14,8 +14,10 @@ public class IntervalCounter {
             start[i] = input[i][0];
             end[i] = input[i][1];
         }
+        // if it is not sorted
         Arrays.sort(start);
         Arrays.sort(end);
+
         TreeMap<Integer, Integer> treeMap = new TreeMap<>();
         int startPivot = 0;
         int endPivot = 0;
@@ -36,7 +38,7 @@ public class IntervalCounter {
             treeMap.put(end[endPivot], times);
             endPivot++;
         }
-        int[][] ans = new int[treeMap.keySet().size()][2];
+        int[][] ans = new int[treeMap.size()][2];
         int i = 0;
         for (int key : treeMap.keySet()) {
             ans[i][0] = key;

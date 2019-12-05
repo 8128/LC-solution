@@ -12,9 +12,11 @@ public class InsertInterval {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
         for (int[] i : intervals) {
+            // already merged
             if (newInterval == null || i[1] < newInterval[0]) {
                 result.add(i);
-            } else if (i[0] > newInterval[1]) {
+            } // if there is no collision
+            else if (i[0] > newInterval[1]) {
                 result.add(newInterval);
                 result.add(i);
                 newInterval = null;

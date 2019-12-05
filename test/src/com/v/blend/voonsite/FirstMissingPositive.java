@@ -8,18 +8,21 @@ import java.util.*;
  */
 public class FirstMissingPositive {
 
+    // On space complexity
     public int firstMissingPositive(int[] nums) {
+        // use a hashset to store all the values that accessed before
         HashSet<Integer> hs = new HashSet<>();
-        int j=1;
+        int ans=1;
         for (int num : nums) {
             hs.add(num);
-            while (hs.contains(j)) {
-                j++;
+            while (hs.contains(ans)) {
+                ans++;
             }
         }
-        return j;
+        return ans;
     }
 
+    // O1 space complexity
     public int firstMissingPositive1(int[] nums) {
         int i = 0;
         while(i < nums.length){

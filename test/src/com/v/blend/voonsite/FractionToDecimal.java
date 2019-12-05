@@ -16,13 +16,14 @@ public class FractionToDecimal {
         }
         StringBuilder fraction = new StringBuilder();
         // If either one is negative (not both)
-        if (numerator < 0 || denominator < 0) {
+        // exclusive OR: XOR
+        if (numerator < 0 ^ denominator < 0) {
             fraction.append("-");
         }
         // Convert to Long or else abs(-2147483648) overflows
         long dividend = Math.abs(Long.valueOf(numerator));
         long divisor = Math.abs(Long.valueOf(denominator));
-        fraction.append(String.valueOf(dividend / divisor));
+        fraction.append(dividend / divisor);
         long remainder = dividend % divisor;
         if (remainder == 0) {
             return fraction.toString();
@@ -37,7 +38,7 @@ public class FractionToDecimal {
             }
             map.put(remainder, fraction.length());
             remainder *= 10;
-            fraction.append(String.valueOf(remainder / divisor));
+            fraction.append(remainder / divisor);
             remainder %= divisor;
         }
         return fraction.toString();

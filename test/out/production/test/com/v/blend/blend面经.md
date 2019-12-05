@@ -59,6 +59,12 @@ We hire world-class talent and trust each individual to make decisions in their 
 
 ## Leetcodes
 
+
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=571086&highlight=blend
+
+第一轮利口武器 第二轮，有很多interval 比如[1, 6), [3, 7), [10, 99), 左闭右开， 要求所有端点（所有interval的start和end）处的count， count就是这个点处在几个interval中， 比如3在[1, 6), [3, 7)， 3的count就是2 用一个treemap存下所有interval的start和end， key是start或者end， value是1（start）或者-1（end）然后遍历这个map，依次加上每个点的value，就能算出每个端点的count
+
 ### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=560530&highlight=blend
 
 1. lc41 两种写法
