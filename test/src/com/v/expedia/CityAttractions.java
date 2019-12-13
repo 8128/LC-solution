@@ -10,11 +10,13 @@ import java.util.*;
  */
 public class CityAttractions {
 
-    static int[] beaut;
     static HashMap<Integer, HashMap<Integer, Integer>> hm;
+    static List<Integer> ans;
+
     public static int findBestPath(int n, int m, int max_t, List<Integer> beauty, List<Integer> u, List<Integer> v, List<Integer> t){
         hm = new HashMap<>();
-        beaut = new int[beauty.size()];
+        int[] beaut = new int[beauty.size()];
+        ans = new ArrayList<>();
         for (int i = 0; i < beauty.size(); i++) {
             beaut[i] = beauty.get(i);
         }
@@ -26,23 +28,24 @@ public class CityAttractions {
             tempMap.put(u.get(i), t.get(i));
             hm.put(v.get(i), tempMap);
         }
-        return recursive(0, max_t);
+        recursive(0, max_t,beaut, 0);
+        Collections.sort(ans);
+        return ans.get(ans.size() - 1);
     }
 
-    public static int recursive (int index, int remain){
+    public static void recursive (int index, int remain,int[] beaut, int b){
+        if (index == 0) {
+            ans.add(b);
+        }
         Map<Integer, Integer> map = hm.get(index);
-        int max = beaut[index];
-        beaut[index] = 0;
-        int temp = 0;
+        int tmp = beaut[index];
+        int[] tempArray = beaut.clone();
+        tempArray[index] = 0;
         for (int key : map.keySet()) {
-            if (remain > map.get(key)) {
-                temp = Math.max(temp, recursive(key, remain - map.get(key)));
+            if (remain >= map.get(key)) {
+                recursive(key, remain - map.get(key),tempArray, b + tmp);
             }
         }
-        if (temp < 0) {
-            return max;
-        }
-        return max+temp;
     }
 
     public static void main(String[] args) {
