@@ -86,10 +86,6 @@ public class NodeDistance {
     }
 
     public static void main(String[] args) {
-        List<Integer> gFrom = new ArrayList<>();
-        gFrom.addAll(Arrays.asList(1,2,1,3,1,2));
-        List<Integer> gTo = new ArrayList<>();
-        gTo.addAll(Arrays.asList(2,3,3,5,4,6));
-        System.out.println(nodeDistance(6, gFrom, gTo));
+        System.out.println(nodeDistance(6, Arrays.asList(1,2,1,3,1,2), Arrays.asList(2,3,3,5,4,6)));
     }
 }
