@@ -1,6 +1,8 @@
 package com.v.amazon.VO;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * @author :   Tianyi Tang
  * @date :   Created in 2020-01-01 00:01
@@ -13,10 +15,13 @@ public class MaximumFrequencyStack {
     Map<Integer, Stack<Integer>> group;
     int maxfreq;
 
+
     public MaximumFrequencyStack() {
         freq = new HashMap();
         group = new HashMap();
         maxfreq = 0;
+        AtomicInteger atomicInteger = new AtomicInteger();
+        System.out.println(atomicInteger);
     }
 
     public void push(int x) {
