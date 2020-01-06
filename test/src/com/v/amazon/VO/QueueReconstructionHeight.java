@@ -49,5 +49,5 @@ public class QueueReconstructionHeight {
         }
         return ans;
     }
-    
+
 }

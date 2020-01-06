@@ -4,21 +4,33 @@ import java.util.*;
 
 public class Main {
 
-    public static int largestRectangleArea(int[] heights) {
-        Stack < Integer > stack = new Stack < > ();
-        stack.push(-1);
-        int maxarea = 0;
-        for (int i = 0; i < heights.length; ++i) {
-            while (stack.peek() != -1 && heights[stack.peek()] >= heights[i])
-                maxarea = Math.max(maxarea, heights[stack.pop()] * (i - stack.peek() - 1));
-            stack.push(i);
+    public static String freqAlphabets(String s) {
+        String[] strs = s.split("#");
+        boolean bl = false;
+        if (s.charAt(s.length() - 1) != '#') bl = true;
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < strs.length; i++) {
+            String str = strs[i];
+            if (bl && i == strs.length - 1) {
+                char[] cs = str.toCharArray();
+                for (char c : cs) {
+                    sb.append((char)(c-'1'+'a'));
+                }
+                continue;
+            }
+            String firstStr = str.substring(0, str.length() - 2);
+            String secondStr = str.substring(str.length() - 2, str.length());
+            char[] cs = firstStr.toCharArray();
+            for (char c : cs) {
+                sb.append((char)(c-'1'+'a'));
+            }
+            int k = Integer.valueOf(secondStr);
+            sb.append((char)(k + 'a' - 1));
         }
-        while (stack.peek() != -1)
-            maxarea = Math.max(maxarea, heights[stack.pop()] * (heights.length - stack.peek() -1));
-        return maxarea;
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-        System.out.println(largestRectangleArea(new int[]{2,1,2}));
+        System.out.println(1^3);
     }
 }
