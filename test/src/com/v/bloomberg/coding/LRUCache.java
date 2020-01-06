@@ -8,107 +8,115 @@ import java.util.*;
  * @timeComplexity :
  * @spaceComplexity :
  */
+import java.util.Hashtable;
+
+
 public class LRUCache {
 
-    // need double linkedlist so frist design a double linked list
     class DLinkedNode {
         int key;
         int value;
-        DLinkedNode prev;
-        DLinkedNode next;
+        DLinkedNode pre;
+        DLinkedNode post;
     }
 
+    /**
+     * Always add the new node right after head;
+     */
     private void addNode(DLinkedNode node) {
-        /**
-         * Always add the new node right after head.
-         */
-        node.prev = head;
-        node.next = head.next;
 
-        head.next.prev = node;
-        head.next = node;
+        node.pre = head;
+        node.post = head.post;
+
+        head.post.pre = node;
+        head.post = node;
     }
 
+    /**
+     * Remove an existing node from the linked list.
+     */
     private void removeNode(DLinkedNode node){
-        /**
-         * Remove an existing node from the linked list.
-         */
-        DLinkedNode prev = node.prev;
-        DLinkedNode next = node.next;
+        DLinkedNode pre = node.pre;
+        DLinkedNode post = node.post;
 
-        prev.next = next;
-        next.prev = prev;
+        pre.post = post;
+        post.pre = pre;
     }
 
+    /**
+     * Move certain node in between to the head.
+     */
     private void moveToHead(DLinkedNode node){
-        /**
-         * Move certain node in between to the head.
-         */
-        removeNode(node);
-        addNode(node);
+        this.removeNode(node);
+        this.addNode(node);
     }
 
-    private DLinkedNode popTail() {
-        /**
-         * Pop the current tail.
-         */
-        DLinkedNode res = tail.prev;
-        removeNode(res);
+    // pop the current tail.
+    private DLinkedNode popTail(){
+        DLinkedNode res = tail.pre;
+        this.removeNode(res);
         return res;
     }
 
-    private Map<Integer, DLinkedNode> cache = new HashMap<>();
-    private int size;
+    private Hashtable<Integer, DLinkedNode>
+            cache = new Hashtable<Integer, DLinkedNode>();
+    private int count;
     private int capacity;
     private DLinkedNode head, tail;
 
     public LRUCache(int capacity) {
-        this.size = 0;
+        this.count = 0;
         this.capacity = capacity;
 
         head = new DLinkedNode();
-        // head.prev = null;
+        head.pre = null;
 
         tail = new DLinkedNode();
-        // tail.next = null;
+        tail.post = null;
 
-        head.next = tail;
-        tail.prev = head;
+        head.post = tail;
+        tail.pre = head;
     }
 
     public int get(int key) {
+
         DLinkedNode node = cache.get(key);
-        if (node == null) return -1;
+        if(node == null){
+            return -1; // should raise exception here.
+        }
 
         // move the accessed node to the head;
-        moveToHead(node);
+        this.moveToHead(node);
 
         return node.value;
     }
 
+
     public void put(int key, int value) {
         DLinkedNode node = cache.get(key);
 
-        if(node == null) {
+        if(node == null){
+
             DLinkedNode newNode = new DLinkedNode();
             newNode.key = key;
             newNode.value = value;
 
-            cache.put(key, newNode);
-            addNode(newNode);
+            this.cache.put(key, newNode);
+            this.addNode(newNode);
 
-            ++size;
+            ++count;
 
-            if(size > capacity) {
+            if(count > capacity){
                 // pop the tail
-                DLinkedNode tail = popTail();
-                cache.remove(tail.key);
-                --size;
+                DLinkedNode tail = this.popTail();
+                this.cache.remove(tail.key);
+                --count;
             }
-        } else {
+        }else{
             // update the value.
             node.value = value;
-            moveToHead(node);
+            this.moveToHead(node);
         }
     }
+
 }
