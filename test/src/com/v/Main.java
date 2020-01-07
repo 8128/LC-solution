@@ -31,6 +31,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(1^3);
+        List<String> list = new ArrayList<>();
+        list.add("abc");
+        list.add("ab");
+        list.add("zhjs");
+        list.add("jsod");
+        Collections.sort(list);
+        System.out.println(list);
     }
 }
