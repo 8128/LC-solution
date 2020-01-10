@@ -13,20 +13,16 @@ class Contest {
 
 
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(1,5,6,8,3,5,2);
-        Collections.sort(list, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                if (o1 > o2) {
-                    return -1;
-                } else if (o1 < o2) {
-                    return 1;
-                } else {
-                    return 0;
-                }
-            }
-        });
-        System.out.println(list);
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+        lhs.add(2);
+        lhs.add(5);
+        lhs.add(8);
+        lhs.remove(2);
+        lhs.add(8);
+        Iterator iterator = lhs.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
     }
 
 
