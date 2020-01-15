@@ -630,3 +630,52 @@ first Missing Positive
 
 刚刚面了1面，问了地里面之前面的小伙伴，他们有面过unique paths的 我面的是lru cache, 这个题目单纯写还是要写挺久的，磕磕绊绊半个小时才写完。 小哥非常nice, inital是AL 攒人品！求二面！
 
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=577844&highlight=blend
+
+第一轮 (2 parts)：
+\1. Two Sum variation
+  Given 2 sorted arrays and a target number, return the indices of the two elements that make up this target (one element from each array). Guaranteed to have such pair.
+
+2.
+
+以下内容需要积分高于 200 您已经可以浏览
+
+
+
+Given a sorted matrix, both horizontally and vertically, and a target number, return boolean on whether such target exists in the matrix.
+
+
+
+
+第二轮：
+
+
+
+以下内容需要积分高于 200 您已经可以浏览
+
+
+
+https://leetcode.com/problems/parse-lisp-expression/
+但只需要考虑 + 和 - 。无需考虑variable和别的operation
+
+### https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=577610&highlight=blend
+
+领英上找的老哥内推的，直接帮我推hr了 都不需要自己申请，非常感谢！！   hr两天就联系到我 发了oa， oa很简单，只记得面试之后的lc 周竞赛就考到了。。 不记得了...  店面 和 onsite 都是地里原题 ：  以下内容需要积分高于 188 您已经可以浏览 
+
+1. kmp 和 rolling hash 一个说 一个写 
+
+2.  一个array 求中间有没有一段的sum 是 target 
+
+3.  给出一堆员工上下班时间 问某一时刻公司有多少人在工作。 扫描线最简单的题吧 比如  员工1  8 - 18       员工2  9 - 16 问题： 8点有几人在工作  答： 1        9 点            答 2  
+
+4.  题 + - 那个题  eg：2 + 3 - 1   有带括号的情况 
+
+5. missing integer 那个题  O1 extra space 
+
+6. 旋转那个1 的那个题目 地理有图  
+
+7. 问了一轮BQ  随便聊天的感觉 问问实习干了什么   
+
+   
+
+   所有的题问了时间复杂度 和 空间复杂的  因为题目比较简单，建议一个题至少说出另一个解吧， 或者有时间再实现另一个解法更好吧。 我能多解的都多解了。  10月末拿到了offer 但是同时拿到了其他的 就拒掉了。 再次感谢内推我的小哥 谢谢 谢谢！！！  

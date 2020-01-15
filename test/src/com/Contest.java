@@ -1,5 +1,7 @@
 package com;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
 import java.util.*;
 
 /**
@@ -13,16 +15,12 @@ class Contest {
 
 
     public static void main(String[] args) {
-        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
-        lhs.add(2);
-        lhs.add(5);
-        lhs.add(8);
-        lhs.remove(2);
-        lhs.add(8);
-        Iterator iterator = lhs.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+        LinkedList<Integer> ll = new LinkedList();
+        ll.add(1);
+        ll.add(2);
+        ll.remove((Integer) 1);
+        System.out.println(ll);
+        new StringBuilder().reverse().toString();
     }
 
 

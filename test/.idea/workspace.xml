@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49360461-a122-4593-9330-30e50ff34ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/META-INF/test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/v/blend/blend面经.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/v/blend/blend面经.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Contest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Contest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +18,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Contest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/PermutationSequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/PartitiontoKEqualSumSubsets.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/contest/jan11/Solution4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
@@ -59,28 +82,6 @@
               <folding>
                 <element signature="e#1069#1070#0" expanded="true" />
                 <element signature="e#1109#1110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/LinkedHashSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/ood/PhoneBookTreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-              <folding>
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/UniquePathsIII.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/ParseLispExpression.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/ShuffleAnArray.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/SortColors.java" />
@@ -219,19 +219,20 @@
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ood/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ood/Elevator.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/ood/NewYorkSubway.java" />
-        <option value="$PROJECT_DIR$/src/com/Contest.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/PartitiontoKEqualSumSubsets.java" />
         <option value="$PROJECT_DIR$/src/com/contest/jan11/Solution2.java" />
         <option value="$PROJECT_DIR$/src/com/contest/jan11/Solution3.java" />
         <option value="$PROJECT_DIR$/src/com/contest/jan11/Solution4.java" />
+        <option value="$PROJECT_DIR$/src/com/Contest.java" />
+        <option value="$PROJECT_DIR$/src/com/v/amazon/VO/PermutationSequence.java" />
       </list>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -332,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution4">
+  <component name="RunManager" selected="Application.PermutationSequence">
     <configuration name="Contest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Contest" />
       <module name="test" />
@@ -346,8 +347,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitiontoKEqualSumSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.v.amazon.VO.PartitiontoKEqualSumSubsets" />
+    <configuration name="PermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.v.amazon.VO.PermutationSequence" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -400,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationSequence" />
+        <item itemvalue="Application.Contest" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.PartitiontoKEqualSumSubsets" />
-        <item itemvalue="Application.Contest" />
       </list>
     </recent_temporary>
   </component>
@@ -452,16 +453,15 @@
       <workItem from="1575516644745" duration="9162000" />
       <workItem from="1575774124368" duration="5710000" />
       <workItem from="1576153072543" duration="64939000" />
-      <workItem from="1578796659412" duration="4179000" />
+      <workItem from="1578796659412" duration="5964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119374000" />
+    <option name="totallyTimeSpent" value="121159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22588523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -473,7 +473,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26938775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26938775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,6 +594,12 @@
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/v/amazon/VO/PermutationSequence.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -603,13 +609,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/v/expedia/NodeDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/mapbox/OddEvenOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -925,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Contest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/bloomberg/coding/LFUCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1240">
@@ -1027,6 +1019,27 @@
           <folding>
             <element signature="e#1069#1070#0" expanded="true" />
             <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Contest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/PermutationSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
           </folding>
         </state>
       </provider>
