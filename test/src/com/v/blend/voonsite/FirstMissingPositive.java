@@ -77,4 +77,8 @@ public class FirstMissingPositive {
         // 4. no positive numbers were found, which means the array contains all numbers 1..n
         return n + 1;
     }
+
+    public static void main(String[] args) {
+        new FirstMissingPositive().firstMissingPositive1(new int[]{2,3,1,6,3,7});
+    }
 }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49360461-a122-4593-9330-30e50ff34ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/v/cerner/httpswww.1point3acres.combbsforum.phpmod=viewthread&amp;tid=570283&amp;highlight=cerner.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/v/cerner/cerner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/v/blend/blend面经.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/v/blend/blend面经.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/v/cerner/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/v/cerner/PascalTriangle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,43 +29,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/v/cerner/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/v/amazon/VO/PartitiontoKEqualSumSubsets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/contest/jan11/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="451">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/contest/jan11/Solution3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/v/blend/voonsite/BinaryTreeUpsideDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1060">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="180">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="980">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+              <folding>
+                <element signature="e#2579#2580#0" expanded="true" />
+                <element signature="e#2666#2667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/contest/jan18/Solution4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -166,13 +170,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/v/amazon/VO/ShuffleAnArray.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/SortColors.java" />
         <option value="$PROJECT_DIR$/src/com/v/bloomberg/coding/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/CriticalConnectionsNetwork.java" />
         <option value="$PROJECT_DIR$/src/com/contest/nov30/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/InsertInterval.java" />
-        <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/SubarraySumEqualsK.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/IntervalCounter.java" />
         <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/FractionToDecimal.java" />
@@ -217,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/com/Contest.java" />
         <option value="$PROJECT_DIR$/src/com/v/amazon/VO/PermutationSequence.java" />
         <option value="$PROJECT_DIR$/src/com/v/cerner/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java" />
+        <option value="$PROJECT_DIR$/src/com/contest/jan18/Solution4.java" />
       </list>
     </option>
   </component>
@@ -224,10 +228,8 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-111" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1TJlUTie1VcjQgOKcjMwcx8UZgu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -267,14 +269,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="jan11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="v" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,7 +277,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="v" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="blend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -291,8 +285,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="v" type="462c0819:PsiDirectoryNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="VO" type="462c0819:PsiDirectoryNode" />
+              <item name="blend" type="462c0819:PsiDirectoryNode" />
+              <item name="voonsite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -334,13 +328,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="Application.Solution4 (1)">
     <configuration name="Contest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Contest" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.v.blend.voonsite.FirstMissingPositive" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.v.blend.voonsite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,25 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.contest.jan11.Solution3" />
+    <configuration name="Solution4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.contest.jan18.Solution4" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.contest.jan11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.contest.jan11.Solution4" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.contest.jan11.*" />
+          <option name="PATTERN" value="com.contest.jan18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,11 +396,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution4 (1)" />
+        <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.PermutationSequence" />
         <item itemvalue="Application.Contest" />
-        <item itemvalue="Application.Solution4" />
-        <item itemvalue="Application.Solution3" />
       </list>
     </recent_temporary>
   </component>
@@ -455,18 +449,18 @@
       <workItem from="1575774124368" duration="5710000" />
       <workItem from="1576153072543" duration="64939000" />
       <workItem from="1578796659412" duration="5964000" />
-      <workItem from="1579201897823" duration="496000" />
+      <workItem from="1579201897823" duration="5083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121655000" />
+    <option name="totallyTimeSpent" value="126242000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-111" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22790202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,7 +470,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26938775" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27755103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,31 +606,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/contest/nov30/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1640">
-          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contest/Dec14/SequentialDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contest/Dec14/MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contest/Dec14/ShortestPathinaGridwithObstaclesElimination.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1035,8 +1004,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/v/cerner/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="451">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/blend/voonsite/BinaryTreeUpsideDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/v/blend/voonsite/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="e#2579#2580#0" expanded="true" />
+            <element signature="e#2666#2667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contest/jan18/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>
