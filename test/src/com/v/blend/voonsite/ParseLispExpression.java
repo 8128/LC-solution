@@ -66,3 +66,56 @@ public class ParseLispExpression {
         System.out.println(parseLispExpression.evaluate("(div 2 (sub 2 4) )"));
     }
 }
+
+
+class Solution {
+    public int evaluate(String expression) {
+        return eval(expression, new HashMap<>());
+    }
+
+    public int eval (String expression, HashMap<String, Integer> hm) {
+        if (expression.charAt(0) != '(') {
+            if (Character.isDigit(expression.charAt(0)) || expression.charAt(0) == '-') {
+                return Integer.valueOf(expression);
+            }
+            return hm.get(expression);
+        }
+        String sub = expression.substring(0,2);
+        HashMap<String, Integer> cur = new HashMap<>(hm);
+        List<String> tokens = parse(expression.substring(expression.indexOf(' ') + 1 , expression.length() - 1));
+        if (sub.equals("(m")) {
+            return eval(tokens.get(0), cur) * eval(tokens.get(1), cur);
+        } else if (sub.equals("(a")) {
+            return eval(tokens.get(0), cur) + eval(tokens.get(1), cur);
+        } else {
+            for (int i = 0; i < tokens.size(); i+=2) {
+                cur.put(tokens.get(i), eval(tokens.get(i + 1), hm));
+            }
+            return eval(tokens.get(tokens.size() - 1), cur);
+        }
+    }
+
+    public List<String> parse (String all) {
+        int cnt = 0;
+        StringBuilder sb = new StringBuilder();
+        List<String> tokens = new ArrayList<>();
+        for (char c : all.toCharArray()) {
+            if (c == '(') cnt++;
+            if (c == ')') cnt--;
+            if (c == ' ' && cnt == 0) {
+                tokens.add(sb.toString());
+                sb = new StringBuilder();
+            } else {
+                sb.append(c);
+            }
+        }
+        if (sb.length() != 0) {
+            tokens.add(sb.toString());
+        }
+        return tokens;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().evaluate("(add 1 2)"));
+    }
+}

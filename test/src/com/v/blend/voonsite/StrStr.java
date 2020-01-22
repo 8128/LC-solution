@@ -72,7 +72,6 @@ public class StrStr {
     // Program to implement KMP Algorithm in Java
     public static void main(String[] args)
     {
-        System.out.println(Arrays.toString(kmp("aabaaac".toCharArray())));
         //System.out.println(kmp("aabaaabaaac","aabaaac"));
         //System.out.println(Arrays.toString(computeLPSArray("aabaaac")));
     }
