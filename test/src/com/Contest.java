@@ -15,12 +15,7 @@ class Contest {
 
 
     public static void main(String[] args) {
-        LinkedList<Integer> ll = new LinkedList();
-        ll.add(1);
-        ll.add(2);
-        ll.remove((Integer) 1);
-        System.out.println(ll);
-        new StringBuilder().reverse().toString();
+        System.out.println("Hello, World!");
     }
 
 
